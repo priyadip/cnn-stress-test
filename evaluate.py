@@ -8,7 +8,7 @@ This script performs:
 4. Per-class accuracy analysis
 5. Saving failure cases for Grad-CAM analysis
 
-The failure discovery process follows the assignment requirements:
+The failure discovery process 
 - Find misclassifications with confidence > 70%
 - Identify high-confidence misclassifications
 - Track indices for reproducible analysis
