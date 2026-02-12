@@ -19,7 +19,7 @@ echo "=========================================="
 
 # ================= USER =================
 
-USERNAME="m25csa023"
+USERNAME="Your user name"
 # ========================================
 
 # -------- SCRATCH DIRECTORIES ----------
@@ -42,7 +42,7 @@ echo "Figures dir: $FIGURES_DIR"
 export PYTHONUNBUFFERED=1
 
 # -------- CONDA SETUP (IMPORTANT) -------
-export CONDARC=/scratch/data/m25csa023/conda/condarc
+export CONDARC=/scratch/data/Your user name/conda/condarc
 
 module purge
 module load anaconda3/2024
