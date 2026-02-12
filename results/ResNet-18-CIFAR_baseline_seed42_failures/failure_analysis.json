@@ -1,0 +1,3982 @@
+[
+  {
+    "case_id": 1,
+    "test_index": 128,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.9999542236328125,
+    "true_class_probability": 3.8205496821319684e-05
+  },
+  {
+    "case_id": 2,
+    "test_index": 2405,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "frog",
+    "pred_label_idx": 6,
+    "confidence": 0.9999532699584961,
+    "true_class_probability": 6.5294361775158904e-06
+  },
+  {
+    "case_id": 3,
+    "test_index": 7099,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.9999302625656128,
+    "true_class_probability": 6.707370630465448e-05
+  },
+  {
+    "case_id": 4,
+    "test_index": 7000,
+    "true_class": "bird",
+    "true_label_idx": 2,
+    "predicted_class": "ship",
+    "pred_label_idx": 8,
+    "confidence": 0.9999128580093384,
+    "true_class_probability": 5.41682202310767e-05
+  },
+  {
+    "case_id": 5,
+    "test_index": 4614,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.9999006986618042,
+    "true_class_probability": 6.538249726872891e-05
+  },
+  {
+    "case_id": 6,
+    "test_index": 9643,
+    "true_class": "truck",
+    "true_label_idx": 9,
+    "predicted_class": "airplane",
+    "pred_label_idx": 0,
+    "confidence": 0.9998680353164673,
+    "true_class_probability": 6.977138127695071e-06
+  },
+  {
+    "case_id": 7,
+    "test_index": 5548,
+    "true_class": "ship",
+    "true_label_idx": 8,
+    "predicted_class": "airplane",
+    "pred_label_idx": 0,
+    "confidence": 0.9998453855514526,
+    "true_class_probability": 8.664830966154113e-05
+  },
+  {
+    "case_id": 8,
+    "test_index": 9518,
+    "true_class": "truck",
+    "true_label_idx": 9,
+    "predicted_class": "automobile",
+    "pred_label_idx": 1,
+    "confidence": 0.9998447895050049,
+    "true_class_probability": 0.00014909269521012902
+  },
+  {
+    "case_id": 9,
+    "test_index": 9819,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.9998096823692322,
+    "true_class_probability": 0.00019012665143236518
+  },
+  {
+    "case_id": 10,
+    "test_index": 3696,
+    "true_class": "deer",
+    "true_label_idx": 4,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.9998051524162292,
+    "true_class_probability": 1.8821554476744495e-05
+  },
+  {
+    "case_id": 11,
+    "test_index": 9386,
+    "true_class": "deer",
+    "true_label_idx": 4,
+    "predicted_class": "bird",
+    "pred_label_idx": 2,
+    "confidence": 0.9997988343238831,
+    "true_class_probability": 4.052389340358786e-05
+  },
+  {
+    "case_id": 12,
+    "test_index": 9431,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.999761164188385,
+    "true_class_probability": 0.0002255064173368737
+  },
+  {
+    "case_id": 13,
+    "test_index": 3202,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.9997238516807556,
+    "true_class_probability": 0.00015177384193520993
+  },
+  {
+    "case_id": 14,
+    "test_index": 5511,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "frog",
+    "pred_label_idx": 6,
+    "confidence": 0.9996682405471802,
+    "true_class_probability": 0.0001669441699050367
+  },
+  {
+    "case_id": 15,
+    "test_index": 7496,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "deer",
+    "pred_label_idx": 4,
+    "confidence": 0.9996452331542969,
+    "true_class_probability": 0.00020574135123752058
+  },
+  {
+    "case_id": 16,
+    "test_index": 6412,
+    "true_class": "ship",
+    "true_label_idx": 8,
+    "predicted_class": "truck",
+    "pred_label_idx": 9,
+    "confidence": 0.999638557434082,
+    "true_class_probability": 0.00024976677377708256
+  },
+  {
+    "case_id": 17,
+    "test_index": 3957,
+    "true_class": "truck",
+    "true_label_idx": 9,
+    "predicted_class": "airplane",
+    "pred_label_idx": 0,
+    "confidence": 0.9996179342269897,
+    "true_class_probability": 0.00022687461751047522
+  },
+  {
+    "case_id": 18,
+    "test_index": 5454,
+    "true_class": "airplane",
+    "true_label_idx": 0,
+    "predicted_class": "bird",
+    "pred_label_idx": 2,
+    "confidence": 0.9995798468589783,
+    "true_class_probability": 0.0004142159305047244
+  },
+  {
+    "case_id": 19,
+    "test_index": 9227,
+    "true_class": "automobile",
+    "true_label_idx": 1,
+    "predicted_class": "truck",
+    "pred_label_idx": 9,
+    "confidence": 0.9995161294937134,
+    "true_class_probability": 0.00045861335820518434
+  },
+  {
+    "case_id": 20,
+    "test_index": 2592,
+    "true_class": "bird",
+    "true_label_idx": 2,
+    "predicted_class": "deer",
+    "pred_label_idx": 4,
+    "confidence": 0.9994291663169861,
+    "true_class_probability": 6.128504173830152e-05
+  },
+  {
+    "case_id": 21,
+    "test_index": 4784,
+    "true_class": "airplane",
+    "true_label_idx": 0,
+    "predicted_class": "ship",
+    "pred_label_idx": 8,
+    "confidence": 0.9993916749954224,
+    "true_class_probability": 0.0003516322176437825
+  },
+  {
+    "case_id": 22,
+    "test_index": 665,
+    "true_class": "ship",
+    "true_label_idx": 8,
+    "predicted_class": "airplane",
+    "pred_label_idx": 0,
+    "confidence": 0.9993913173675537,
+    "true_class_probability": 0.0006027873605489731
+  },
+  {
+    "case_id": 23,
+    "test_index": 1685,
+    "true_class": "ship",
+    "true_label_idx": 8,
+    "predicted_class": "bird",
+    "pred_label_idx": 2,
+    "confidence": 0.9993736147880554,
+    "true_class_probability": 0.00011741217167582363
+  },
+  {
+    "case_id": 24,
+    "test_index": 3799,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.9993599057197571,
+    "true_class_probability": 0.0001920565846376121
+  },
+  {
+    "case_id": 25,
+    "test_index": 3444,
+    "true_class": "airplane",
+    "true_label_idx": 0,
+    "predicted_class": "bird",
+    "pred_label_idx": 2,
+    "confidence": 0.9990938901901245,
+    "true_class_probability": 0.0006871948135085404
+  },
+  {
+    "case_id": 26,
+    "test_index": 9953,
+    "true_class": "horse",
+    "true_label_idx": 7,
+    "predicted_class": "deer",
+    "pred_label_idx": 4,
+    "confidence": 0.9989917874336243,
+    "true_class_probability": 0.000993090565316379
+  },
+  {
+    "case_id": 27,
+    "test_index": 7493,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.9989774227142334,
+    "true_class_probability": 0.00042045419104397297
+  },
+  {
+    "case_id": 28,
+    "test_index": 4528,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "deer",
+    "pred_label_idx": 4,
+    "confidence": 0.9989653825759888,
+    "true_class_probability": 0.00037998417974449694
+  },
+  {
+    "case_id": 29,
+    "test_index": 8131,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "frog",
+    "pred_label_idx": 6,
+    "confidence": 0.9989340901374817,
+    "true_class_probability": 0.0009945447091013193
+  },
+  {
+    "case_id": 30,
+    "test_index": 7202,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.9987057447433472,
+    "true_class_probability": 0.0012233101297169924
+  },
+  {
+    "case_id": 31,
+    "test_index": 8033,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.9986329674720764,
+    "true_class_probability": 0.0012292815372347832
+  },
+  {
+    "case_id": 32,
+    "test_index": 1732,
+    "true_class": "truck",
+    "true_label_idx": 9,
+    "predicted_class": "automobile",
+    "pred_label_idx": 1,
+    "confidence": 0.9984153509140015,
+    "true_class_probability": 0.001576988841407001
+  },
+  {
+    "case_id": 33,
+    "test_index": 9853,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "frog",
+    "pred_label_idx": 6,
+    "confidence": 0.9983235001564026,
+    "true_class_probability": 0.0005188788054510951
+  },
+  {
+    "case_id": 34,
+    "test_index": 1791,
+    "true_class": "deer",
+    "true_label_idx": 4,
+    "predicted_class": "frog",
+    "pred_label_idx": 6,
+    "confidence": 0.9983158111572266,
+    "true_class_probability": 0.0005667522782459855
+  },
+  {
+    "case_id": 35,
+    "test_index": 2912,
+    "true_class": "bird",
+    "true_label_idx": 2,
+    "predicted_class": "frog",
+    "pred_label_idx": 6,
+    "confidence": 0.9980459213256836,
+    "true_class_probability": 0.001548317028209567
+  },
+  {
+    "case_id": 36,
+    "test_index": 4276,
+    "true_class": "truck",
+    "true_label_idx": 9,
+    "predicted_class": "automobile",
+    "pred_label_idx": 1,
+    "confidence": 0.9980073571205139,
+    "true_class_probability": 0.0019163867691531777
+  },
+  {
+    "case_id": 37,
+    "test_index": 2542,
+    "true_class": "bird",
+    "true_label_idx": 2,
+    "predicted_class": "airplane",
+    "pred_label_idx": 0,
+    "confidence": 0.9979962706565857,
+    "true_class_probability": 0.0014944967115297914
+  },
+  {
+    "case_id": 38,
+    "test_index": 1334,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "bird",
+    "pred_label_idx": 2,
+    "confidence": 0.9979914426803589,
+    "true_class_probability": 0.001614631270058453
+  },
+  {
+    "case_id": 39,
+    "test_index": 6522,
+    "true_class": "truck",
+    "true_label_idx": 9,
+    "predicted_class": "automobile",
+    "pred_label_idx": 1,
+    "confidence": 0.9979791045188904,
+    "true_class_probability": 0.0019187764264643192
+  },
+  {
+    "case_id": 40,
+    "test_index": 6792,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "truck",
+    "pred_label_idx": 9,
+    "confidence": 0.9979345798492432,
+    "true_class_probability": 9.599037730367854e-05
+  },
+  {
+    "case_id": 41,
+    "test_index": 2705,
+    "true_class": "ship",
+    "true_label_idx": 8,
+    "predicted_class": "airplane",
+    "pred_label_idx": 0,
+    "confidence": 0.997645914554596,
+    "true_class_probability": 0.0015245256945490837
+  },
+  {
+    "case_id": 42,
+    "test_index": 7246,
+    "true_class": "airplane",
+    "true_label_idx": 0,
+    "predicted_class": "bird",
+    "pred_label_idx": 2,
+    "confidence": 0.9975358247756958,
+    "true_class_probability": 0.002334845019504428
+  },
+  {
+    "case_id": 43,
+    "test_index": 9148,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.9974104762077332,
+    "true_class_probability": 0.0021671620197594166
+  },
+  {
+    "case_id": 44,
+    "test_index": 7617,
+    "true_class": "bird",
+    "true_label_idx": 2,
+    "predicted_class": "airplane",
+    "pred_label_idx": 0,
+    "confidence": 0.9971383810043335,
+    "true_class_probability": 0.0019588510040193796
+  },
+  {
+    "case_id": 45,
+    "test_index": 1924,
+    "true_class": "truck",
+    "true_label_idx": 9,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.9970681071281433,
+    "true_class_probability": 0.0020352061837911606
+  },
+  {
+    "case_id": 46,
+    "test_index": 7080,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "airplane",
+    "pred_label_idx": 0,
+    "confidence": 0.9969698786735535,
+    "true_class_probability": 0.0013172219041734934
+  },
+  {
+    "case_id": 47,
+    "test_index": 1884,
+    "true_class": "horse",
+    "true_label_idx": 7,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.9969543218612671,
+    "true_class_probability": 0.000560825050342828
+  },
+  {
+    "case_id": 48,
+    "test_index": 1167,
+    "true_class": "deer",
+    "true_label_idx": 4,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.9969518184661865,
+    "true_class_probability": 0.002015303121879697
+  },
+  {
+    "case_id": 49,
+    "test_index": 4055,
+    "true_class": "automobile",
+    "true_label_idx": 1,
+    "predicted_class": "airplane",
+    "pred_label_idx": 0,
+    "confidence": 0.9966703057289124,
+    "true_class_probability": 0.0022947618272155523
+  },
+  {
+    "case_id": 50,
+    "test_index": 1131,
+    "true_class": "automobile",
+    "true_label_idx": 1,
+    "predicted_class": "truck",
+    "pred_label_idx": 9,
+    "confidence": 0.9964961409568787,
+    "true_class_probability": 0.0028387028723955154
+  },
+  {
+    "case_id": 51,
+    "test_index": 3231,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.9964349269866943,
+    "true_class_probability": 0.0013204494025558233
+  },
+  {
+    "case_id": 52,
+    "test_index": 7509,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.9962946772575378,
+    "true_class_probability": 0.00031236500944942236
+  },
+  {
+    "case_id": 53,
+    "test_index": 1339,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "horse",
+    "pred_label_idx": 7,
+    "confidence": 0.9962334036827087,
+    "true_class_probability": 0.0034677977673709393
+  },
+  {
+    "case_id": 54,
+    "test_index": 2362,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "bird",
+    "pred_label_idx": 2,
+    "confidence": 0.9962230920791626,
+    "true_class_probability": 0.003629133338108659
+  },
+  {
+    "case_id": 55,
+    "test_index": 7408,
+    "true_class": "deer",
+    "true_label_idx": 4,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.9960402250289917,
+    "true_class_probability": 0.0001227074972121045
+  },
+  {
+    "case_id": 56,
+    "test_index": 7669,
+    "true_class": "horse",
+    "true_label_idx": 7,
+    "predicted_class": "deer",
+    "pred_label_idx": 4,
+    "confidence": 0.996025800704956,
+    "true_class_probability": 0.003212232608348131
+  },
+  {
+    "case_id": 57,
+    "test_index": 5455,
+    "true_class": "truck",
+    "true_label_idx": 9,
+    "predicted_class": "automobile",
+    "pred_label_idx": 1,
+    "confidence": 0.9959152340888977,
+    "true_class_probability": 0.002438731724396348
+  },
+  {
+    "case_id": 58,
+    "test_index": 6970,
+    "true_class": "airplane",
+    "true_label_idx": 0,
+    "predicted_class": "bird",
+    "pred_label_idx": 2,
+    "confidence": 0.9958147406578064,
+    "true_class_probability": 0.00393407279625535
+  },
+  {
+    "case_id": 59,
+    "test_index": 3735,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.9957811832427979,
+    "true_class_probability": 0.0041196588426828384
+  },
+  {
+    "case_id": 60,
+    "test_index": 2473,
+    "true_class": "airplane",
+    "true_label_idx": 0,
+    "predicted_class": "ship",
+    "pred_label_idx": 8,
+    "confidence": 0.9951239228248596,
+    "true_class_probability": 0.004721600562334061
+  },
+  {
+    "case_id": 61,
+    "test_index": 2884,
+    "true_class": "frog",
+    "true_label_idx": 6,
+    "predicted_class": "deer",
+    "pred_label_idx": 4,
+    "confidence": 0.9948541522026062,
+    "true_class_probability": 0.0017717931186780334
+  },
+  {
+    "case_id": 62,
+    "test_index": 7444,
+    "true_class": "truck",
+    "true_label_idx": 9,
+    "predicted_class": "automobile",
+    "pred_label_idx": 1,
+    "confidence": 0.994726836681366,
+    "true_class_probability": 0.00526379095390439
+  },
+  {
+    "case_id": 63,
+    "test_index": 9989,
+    "true_class": "bird",
+    "true_label_idx": 2,
+    "predicted_class": "deer",
+    "pred_label_idx": 4,
+    "confidence": 0.9941893815994263,
+    "true_class_probability": 0.005099553614854813
+  },
+  {
+    "case_id": 64,
+    "test_index": 8580,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.9938627481460571,
+    "true_class_probability": 0.005422795657068491
+  },
+  {
+    "case_id": 65,
+    "test_index": 2034,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "deer",
+    "pred_label_idx": 4,
+    "confidence": 0.9936932325363159,
+    "true_class_probability": 0.004141606390476227
+  },
+  {
+    "case_id": 66,
+    "test_index": 956,
+    "true_class": "airplane",
+    "true_label_idx": 0,
+    "predicted_class": "bird",
+    "pred_label_idx": 2,
+    "confidence": 0.9936602711677551,
+    "true_class_probability": 0.006217964459210634
+  },
+  {
+    "case_id": 67,
+    "test_index": 6063,
+    "true_class": "frog",
+    "true_label_idx": 6,
+    "predicted_class": "deer",
+    "pred_label_idx": 4,
+    "confidence": 0.9935100674629211,
+    "true_class_probability": 0.0011812319280579686
+  },
+  {
+    "case_id": 68,
+    "test_index": 8491,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "bird",
+    "pred_label_idx": 2,
+    "confidence": 0.9934688806533813,
+    "true_class_probability": 0.0024036364629864693
+  },
+  {
+    "case_id": 69,
+    "test_index": 213,
+    "true_class": "truck",
+    "true_label_idx": 9,
+    "predicted_class": "ship",
+    "pred_label_idx": 8,
+    "confidence": 0.9934512376785278,
+    "true_class_probability": 0.006473146844655275
+  },
+  {
+    "case_id": 70,
+    "test_index": 355,
+    "true_class": "horse",
+    "true_label_idx": 7,
+    "predicted_class": "bird",
+    "pred_label_idx": 2,
+    "confidence": 0.9931064248085022,
+    "true_class_probability": 0.0005365595570765436
+  },
+  {
+    "case_id": 71,
+    "test_index": 8577,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "frog",
+    "pred_label_idx": 6,
+    "confidence": 0.9928926229476929,
+    "true_class_probability": 0.0009422951843589544
+  },
+  {
+    "case_id": 72,
+    "test_index": 6083,
+    "true_class": "bird",
+    "true_label_idx": 2,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.9928125739097595,
+    "true_class_probability": 0.004223621916025877
+  },
+  {
+    "case_id": 73,
+    "test_index": 7143,
+    "true_class": "deer",
+    "true_label_idx": 4,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.9926020503044128,
+    "true_class_probability": 0.00028162571834400296
+  },
+  {
+    "case_id": 74,
+    "test_index": 8469,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.9925619959831238,
+    "true_class_probability": 0.006290252320468426
+  },
+  {
+    "case_id": 75,
+    "test_index": 925,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.9909535646438599,
+    "true_class_probability": 0.008047210983932018
+  },
+  {
+    "case_id": 76,
+    "test_index": 7619,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.990877091884613,
+    "true_class_probability": 0.0024706809781491756
+  },
+  {
+    "case_id": 77,
+    "test_index": 384,
+    "true_class": "bird",
+    "true_label_idx": 2,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.9906951189041138,
+    "true_class_probability": 0.008885586634278297
+  },
+  {
+    "case_id": 78,
+    "test_index": 7384,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.9906145334243774,
+    "true_class_probability": 0.0002847129653673619
+  },
+  {
+    "case_id": 79,
+    "test_index": 3052,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.9901020526885986,
+    "true_class_probability": 0.00032840415951795876
+  },
+  {
+    "case_id": 80,
+    "test_index": 3359,
+    "true_class": "horse",
+    "true_label_idx": 7,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.9899609088897705,
+    "true_class_probability": 0.0007015412556938827
+  },
+  {
+    "case_id": 81,
+    "test_index": 725,
+    "true_class": "bird",
+    "true_label_idx": 2,
+    "predicted_class": "airplane",
+    "pred_label_idx": 0,
+    "confidence": 0.9897059202194214,
+    "true_class_probability": 0.00015324434207286686
+  },
+  {
+    "case_id": 82,
+    "test_index": 7853,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "bird",
+    "pred_label_idx": 2,
+    "confidence": 0.9896091222763062,
+    "true_class_probability": 0.006479637231677771
+  },
+  {
+    "case_id": 83,
+    "test_index": 6497,
+    "true_class": "deer",
+    "true_label_idx": 4,
+    "predicted_class": "bird",
+    "pred_label_idx": 2,
+    "confidence": 0.9896014332771301,
+    "true_class_probability": 0.008158760145306587
+  },
+  {
+    "case_id": 84,
+    "test_index": 9812,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "ship",
+    "pred_label_idx": 8,
+    "confidence": 0.9895248413085938,
+    "true_class_probability": 0.005275809671729803
+  },
+  {
+    "case_id": 85,
+    "test_index": 4309,
+    "true_class": "horse",
+    "true_label_idx": 7,
+    "predicted_class": "deer",
+    "pred_label_idx": 4,
+    "confidence": 0.9893187880516052,
+    "true_class_probability": 3.65771193173714e-05
+  },
+  {
+    "case_id": 86,
+    "test_index": 1684,
+    "true_class": "automobile",
+    "true_label_idx": 1,
+    "predicted_class": "ship",
+    "pred_label_idx": 8,
+    "confidence": 0.9889003038406372,
+    "true_class_probability": 0.006836249493062496
+  },
+  {
+    "case_id": 87,
+    "test_index": 5224,
+    "true_class": "airplane",
+    "true_label_idx": 0,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.9884345531463623,
+    "true_class_probability": 0.003394077764824033
+  },
+  {
+    "case_id": 88,
+    "test_index": 7274,
+    "true_class": "automobile",
+    "true_label_idx": 1,
+    "predicted_class": "truck",
+    "pred_label_idx": 9,
+    "confidence": 0.9882879853248596,
+    "true_class_probability": 0.011197845451533794
+  },
+  {
+    "case_id": 89,
+    "test_index": 3354,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.9881904125213623,
+    "true_class_probability": 0.010845615528523922
+  },
+  {
+    "case_id": 90,
+    "test_index": 6070,
+    "true_class": "ship",
+    "true_label_idx": 8,
+    "predicted_class": "truck",
+    "pred_label_idx": 9,
+    "confidence": 0.9881640672683716,
+    "true_class_probability": 0.009852098301053047
+  },
+  {
+    "case_id": 91,
+    "test_index": 5972,
+    "true_class": "ship",
+    "true_label_idx": 8,
+    "predicted_class": "airplane",
+    "pred_label_idx": 0,
+    "confidence": 0.9879982471466064,
+    "true_class_probability": 0.0119664017111063
+  },
+  {
+    "case_id": 92,
+    "test_index": 9254,
+    "true_class": "horse",
+    "true_label_idx": 7,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.9876968264579773,
+    "true_class_probability": 0.00014874927001073956
+  },
+  {
+    "case_id": 93,
+    "test_index": 4485,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "horse",
+    "pred_label_idx": 7,
+    "confidence": 0.9873346090316772,
+    "true_class_probability": 0.00027106719790026546
+  },
+  {
+    "case_id": 94,
+    "test_index": 8993,
+    "true_class": "airplane",
+    "true_label_idx": 0,
+    "predicted_class": "truck",
+    "pred_label_idx": 9,
+    "confidence": 0.9868991374969482,
+    "true_class_probability": 0.01233951561152935
+  },
+  {
+    "case_id": 95,
+    "test_index": 3450,
+    "true_class": "truck",
+    "true_label_idx": 9,
+    "predicted_class": "automobile",
+    "pred_label_idx": 1,
+    "confidence": 0.986412763595581,
+    "true_class_probability": 0.013325827196240425
+  },
+  {
+    "case_id": 96,
+    "test_index": 2128,
+    "true_class": "deer",
+    "true_label_idx": 4,
+    "predicted_class": "frog",
+    "pred_label_idx": 6,
+    "confidence": 0.9853149652481079,
+    "true_class_probability": 0.00021842138085048646
+  },
+  {
+    "case_id": 97,
+    "test_index": 7797,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "frog",
+    "pred_label_idx": 6,
+    "confidence": 0.9838258624076843,
+    "true_class_probability": 0.01570500060915947
+  },
+  {
+    "case_id": 98,
+    "test_index": 7311,
+    "true_class": "automobile",
+    "true_label_idx": 1,
+    "predicted_class": "truck",
+    "pred_label_idx": 9,
+    "confidence": 0.9836578965187073,
+    "true_class_probability": 0.00281852250918746
+  },
+  {
+    "case_id": 99,
+    "test_index": 2036,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.9836046099662781,
+    "true_class_probability": 0.016124367713928223
+  },
+  {
+    "case_id": 100,
+    "test_index": 8898,
+    "true_class": "horse",
+    "true_label_idx": 7,
+    "predicted_class": "airplane",
+    "pred_label_idx": 0,
+    "confidence": 0.9827473163604736,
+    "true_class_probability": 0.01656331866979599
+  },
+  {
+    "case_id": 101,
+    "test_index": 4556,
+    "true_class": "bird",
+    "true_label_idx": 2,
+    "predicted_class": "ship",
+    "pred_label_idx": 8,
+    "confidence": 0.9818645715713501,
+    "true_class_probability": 0.005820992402732372
+  },
+  {
+    "case_id": 102,
+    "test_index": 3867,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.9811697602272034,
+    "true_class_probability": 0.0179174542427063
+  },
+  {
+    "case_id": 103,
+    "test_index": 7150,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "frog",
+    "pred_label_idx": 6,
+    "confidence": 0.981141984462738,
+    "true_class_probability": 0.008220341056585312
+  },
+  {
+    "case_id": 104,
+    "test_index": 6979,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "deer",
+    "pred_label_idx": 4,
+    "confidence": 0.9811237454414368,
+    "true_class_probability": 0.017920123413205147
+  },
+  {
+    "case_id": 105,
+    "test_index": 3704,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "deer",
+    "pred_label_idx": 4,
+    "confidence": 0.9810757637023926,
+    "true_class_probability": 0.002433912130072713
+  },
+  {
+    "case_id": 106,
+    "test_index": 640,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.9806416630744934,
+    "true_class_probability": 0.01863091066479683
+  },
+  {
+    "case_id": 107,
+    "test_index": 8295,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "airplane",
+    "pred_label_idx": 0,
+    "confidence": 0.9799683094024658,
+    "true_class_probability": 0.015978626906871796
+  },
+  {
+    "case_id": 108,
+    "test_index": 8803,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.9799392223358154,
+    "true_class_probability": 0.0008373371092602611
+  },
+  {
+    "case_id": 109,
+    "test_index": 4016,
+    "true_class": "frog",
+    "true_label_idx": 6,
+    "predicted_class": "bird",
+    "pred_label_idx": 2,
+    "confidence": 0.9797365069389343,
+    "true_class_probability": 0.019637495279312134
+  },
+  {
+    "case_id": 110,
+    "test_index": 378,
+    "true_class": "airplane",
+    "true_label_idx": 0,
+    "predicted_class": "ship",
+    "pred_label_idx": 8,
+    "confidence": 0.9796966910362244,
+    "true_class_probability": 0.018621886149048805
+  },
+  {
+    "case_id": 111,
+    "test_index": 4545,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "deer",
+    "pred_label_idx": 4,
+    "confidence": 0.9794754981994629,
+    "true_class_probability": 0.01939884014427662
+  },
+  {
+    "case_id": 112,
+    "test_index": 3560,
+    "true_class": "automobile",
+    "true_label_idx": 1,
+    "predicted_class": "truck",
+    "pred_label_idx": 9,
+    "confidence": 0.9794421792030334,
+    "true_class_probability": 0.02025822550058365
+  },
+  {
+    "case_id": 113,
+    "test_index": 4044,
+    "true_class": "frog",
+    "true_label_idx": 6,
+    "predicted_class": "bird",
+    "pred_label_idx": 2,
+    "confidence": 0.9790986776351929,
+    "true_class_probability": 0.020565107464790344
+  },
+  {
+    "case_id": 114,
+    "test_index": 8183,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.9788691401481628,
+    "true_class_probability": 0.021083688363432884
+  },
+  {
+    "case_id": 115,
+    "test_index": 5747,
+    "true_class": "ship",
+    "true_label_idx": 8,
+    "predicted_class": "airplane",
+    "pred_label_idx": 0,
+    "confidence": 0.9785519242286682,
+    "true_class_probability": 0.021403735503554344
+  },
+  {
+    "case_id": 116,
+    "test_index": 6438,
+    "true_class": "deer",
+    "true_label_idx": 4,
+    "predicted_class": "bird",
+    "pred_label_idx": 2,
+    "confidence": 0.9784018397331238,
+    "true_class_probability": 0.020504964515566826
+  },
+  {
+    "case_id": 117,
+    "test_index": 9968,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.9783896207809448,
+    "true_class_probability": 0.0210473220795393
+  },
+  {
+    "case_id": 118,
+    "test_index": 9704,
+    "true_class": "bird",
+    "true_label_idx": 2,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.9782387018203735,
+    "true_class_probability": 1.9208478079235647e-06
+  },
+  {
+    "case_id": 119,
+    "test_index": 4935,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.9781978726387024,
+    "true_class_probability": 0.021034888923168182
+  },
+  {
+    "case_id": 120,
+    "test_index": 1969,
+    "true_class": "automobile",
+    "true_label_idx": 1,
+    "predicted_class": "truck",
+    "pred_label_idx": 9,
+    "confidence": 0.9778978228569031,
+    "true_class_probability": 0.021877024322748184
+  },
+  {
+    "case_id": 121,
+    "test_index": 2205,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.9778087735176086,
+    "true_class_probability": 0.014393055811524391
+  },
+  {
+    "case_id": 122,
+    "test_index": 8457,
+    "true_class": "bird",
+    "true_label_idx": 2,
+    "predicted_class": "deer",
+    "pred_label_idx": 4,
+    "confidence": 0.9770846962928772,
+    "true_class_probability": 0.021396074444055557
+  },
+  {
+    "case_id": 123,
+    "test_index": 1325,
+    "true_class": "bird",
+    "true_label_idx": 2,
+    "predicted_class": "deer",
+    "pred_label_idx": 4,
+    "confidence": 0.9766090512275696,
+    "true_class_probability": 0.017592396587133408
+  },
+  {
+    "case_id": 124,
+    "test_index": 1934,
+    "true_class": "horse",
+    "true_label_idx": 7,
+    "predicted_class": "airplane",
+    "pred_label_idx": 0,
+    "confidence": 0.9765146970748901,
+    "true_class_probability": 0.020187893882393837
+  },
+  {
+    "case_id": 125,
+    "test_index": 8473,
+    "true_class": "bird",
+    "true_label_idx": 2,
+    "predicted_class": "deer",
+    "pred_label_idx": 4,
+    "confidence": 0.9763792157173157,
+    "true_class_probability": 0.01427493803203106
+  },
+  {
+    "case_id": 126,
+    "test_index": 5450,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.9761595129966736,
+    "true_class_probability": 0.023684745654463768
+  },
+  {
+    "case_id": 127,
+    "test_index": 793,
+    "true_class": "deer",
+    "true_label_idx": 4,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.9758740067481995,
+    "true_class_probability": 0.022631831467151642
+  },
+  {
+    "case_id": 128,
+    "test_index": 2495,
+    "true_class": "truck",
+    "true_label_idx": 9,
+    "predicted_class": "ship",
+    "pred_label_idx": 8,
+    "confidence": 0.9751009345054626,
+    "true_class_probability": 0.020648330450057983
+  },
+  {
+    "case_id": 129,
+    "test_index": 7763,
+    "true_class": "deer",
+    "true_label_idx": 4,
+    "predicted_class": "bird",
+    "pred_label_idx": 2,
+    "confidence": 0.9750615954399109,
+    "true_class_probability": 0.003994156140834093
+  },
+  {
+    "case_id": 130,
+    "test_index": 7689,
+    "true_class": "airplane",
+    "true_label_idx": 0,
+    "predicted_class": "ship",
+    "pred_label_idx": 8,
+    "confidence": 0.9750149250030518,
+    "true_class_probability": 0.024901092052459717
+  },
+  {
+    "case_id": 131,
+    "test_index": 9145,
+    "true_class": "automobile",
+    "true_label_idx": 1,
+    "predicted_class": "truck",
+    "pred_label_idx": 9,
+    "confidence": 0.973487138748169,
+    "true_class_probability": 0.026217686012387276
+  },
+  {
+    "case_id": 132,
+    "test_index": 7107,
+    "true_class": "bird",
+    "true_label_idx": 2,
+    "predicted_class": "frog",
+    "pred_label_idx": 6,
+    "confidence": 0.9731341600418091,
+    "true_class_probability": 0.00023294566199183464
+  },
+  {
+    "case_id": 133,
+    "test_index": 5183,
+    "true_class": "deer",
+    "true_label_idx": 4,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.9728170037269592,
+    "true_class_probability": 0.013403919525444508
+  },
+  {
+    "case_id": 134,
+    "test_index": 6709,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.9722227454185486,
+    "true_class_probability": 0.027427038177847862
+  },
+  {
+    "case_id": 135,
+    "test_index": 1391,
+    "true_class": "horse",
+    "true_label_idx": 7,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.9721642732620239,
+    "true_class_probability": 0.0018137319711968303
+  },
+  {
+    "case_id": 136,
+    "test_index": 3913,
+    "true_class": "horse",
+    "true_label_idx": 7,
+    "predicted_class": "deer",
+    "pred_label_idx": 4,
+    "confidence": 0.9721208810806274,
+    "true_class_probability": 0.018711568787693977
+  },
+  {
+    "case_id": 137,
+    "test_index": 7559,
+    "true_class": "ship",
+    "true_label_idx": 8,
+    "predicted_class": "automobile",
+    "pred_label_idx": 1,
+    "confidence": 0.9718981981277466,
+    "true_class_probability": 0.026139194145798683
+  },
+  {
+    "case_id": 138,
+    "test_index": 972,
+    "true_class": "bird",
+    "true_label_idx": 2,
+    "predicted_class": "frog",
+    "pred_label_idx": 6,
+    "confidence": 0.9717038869857788,
+    "true_class_probability": 0.026518572121858597
+  },
+  {
+    "case_id": 139,
+    "test_index": 158,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.9711782932281494,
+    "true_class_probability": 0.02405133843421936
+  },
+  {
+    "case_id": 140,
+    "test_index": 9633,
+    "true_class": "airplane",
+    "true_label_idx": 0,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.9707304835319519,
+    "true_class_probability": 0.025074750185012817
+  },
+  {
+    "case_id": 141,
+    "test_index": 1939,
+    "true_class": "frog",
+    "true_label_idx": 6,
+    "predicted_class": "bird",
+    "pred_label_idx": 2,
+    "confidence": 0.9706810116767883,
+    "true_class_probability": 0.0026022118981927633
+  },
+  {
+    "case_id": 142,
+    "test_index": 8749,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.9704792499542236,
+    "true_class_probability": 0.029475072398781776
+  },
+  {
+    "case_id": 143,
+    "test_index": 118,
+    "true_class": "bird",
+    "true_label_idx": 2,
+    "predicted_class": "frog",
+    "pred_label_idx": 6,
+    "confidence": 0.9703965783119202,
+    "true_class_probability": 0.02053823135793209
+  },
+  {
+    "case_id": 144,
+    "test_index": 1355,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.9701449871063232,
+    "true_class_probability": 0.01750180684030056
+  },
+  {
+    "case_id": 145,
+    "test_index": 2226,
+    "true_class": "bird",
+    "true_label_idx": 2,
+    "predicted_class": "frog",
+    "pred_label_idx": 6,
+    "confidence": 0.9682676196098328,
+    "true_class_probability": 0.02836407907307148
+  },
+  {
+    "case_id": 146,
+    "test_index": 4036,
+    "true_class": "horse",
+    "true_label_idx": 7,
+    "predicted_class": "airplane",
+    "pred_label_idx": 0,
+    "confidence": 0.968062698841095,
+    "true_class_probability": 0.0012969975359737873
+  },
+  {
+    "case_id": 147,
+    "test_index": 8576,
+    "true_class": "bird",
+    "true_label_idx": 2,
+    "predicted_class": "airplane",
+    "pred_label_idx": 0,
+    "confidence": 0.9680083990097046,
+    "true_class_probability": 0.0017309869872406125
+  },
+  {
+    "case_id": 148,
+    "test_index": 898,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "horse",
+    "pred_label_idx": 7,
+    "confidence": 0.9676176309585571,
+    "true_class_probability": 0.013894381932914257
+  },
+  {
+    "case_id": 149,
+    "test_index": 1492,
+    "true_class": "truck",
+    "true_label_idx": 9,
+    "predicted_class": "automobile",
+    "pred_label_idx": 1,
+    "confidence": 0.9675953984260559,
+    "true_class_probability": 0.018112100660800934
+  },
+  {
+    "case_id": 150,
+    "test_index": 9230,
+    "true_class": "bird",
+    "true_label_idx": 2,
+    "predicted_class": "airplane",
+    "pred_label_idx": 0,
+    "confidence": 0.9674406051635742,
+    "true_class_probability": 0.004039559047669172
+  },
+  {
+    "case_id": 151,
+    "test_index": 3192,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "deer",
+    "pred_label_idx": 4,
+    "confidence": 0.9670851826667786,
+    "true_class_probability": 0.0047677489928901196
+  },
+  {
+    "case_id": 152,
+    "test_index": 810,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "bird",
+    "pred_label_idx": 2,
+    "confidence": 0.9659655690193176,
+    "true_class_probability": 0.00024271932488773018
+  },
+  {
+    "case_id": 153,
+    "test_index": 2532,
+    "true_class": "airplane",
+    "true_label_idx": 0,
+    "predicted_class": "automobile",
+    "pred_label_idx": 1,
+    "confidence": 0.9654130339622498,
+    "true_class_probability": 0.0294216088950634
+  },
+  {
+    "case_id": 154,
+    "test_index": 4302,
+    "true_class": "bird",
+    "true_label_idx": 2,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.9654004573822021,
+    "true_class_probability": 0.033200185745954514
+  },
+  {
+    "case_id": 155,
+    "test_index": 5207,
+    "true_class": "ship",
+    "true_label_idx": 8,
+    "predicted_class": "automobile",
+    "pred_label_idx": 1,
+    "confidence": 0.9638863205909729,
+    "true_class_probability": 0.0222247913479805
+  },
+  {
+    "case_id": 156,
+    "test_index": 9832,
+    "true_class": "bird",
+    "true_label_idx": 2,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.9635166525840759,
+    "true_class_probability": 0.016430173069238663
+  },
+  {
+    "case_id": 157,
+    "test_index": 2372,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "bird",
+    "pred_label_idx": 2,
+    "confidence": 0.9613779187202454,
+    "true_class_probability": 0.02571241557598114
+  },
+  {
+    "case_id": 158,
+    "test_index": 3049,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.960472047328949,
+    "true_class_probability": 0.038957346230745316
+  },
+  {
+    "case_id": 159,
+    "test_index": 2957,
+    "true_class": "ship",
+    "true_label_idx": 8,
+    "predicted_class": "truck",
+    "pred_label_idx": 9,
+    "confidence": 0.9602299332618713,
+    "true_class_probability": 0.021264536306262016
+  },
+  {
+    "case_id": 160,
+    "test_index": 2854,
+    "true_class": "truck",
+    "true_label_idx": 9,
+    "predicted_class": "automobile",
+    "pred_label_idx": 1,
+    "confidence": 0.9601767063140869,
+    "true_class_probability": 0.0385364331305027
+  },
+  {
+    "case_id": 161,
+    "test_index": 2331,
+    "true_class": "bird",
+    "true_label_idx": 2,
+    "predicted_class": "deer",
+    "pred_label_idx": 4,
+    "confidence": 0.9599776268005371,
+    "true_class_probability": 0.026430999860167503
+  },
+  {
+    "case_id": 162,
+    "test_index": 8983,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "deer",
+    "pred_label_idx": 4,
+    "confidence": 0.9596779346466064,
+    "true_class_probability": 0.006265344098210335
+  },
+  {
+    "case_id": 163,
+    "test_index": 727,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "bird",
+    "pred_label_idx": 2,
+    "confidence": 0.9592990875244141,
+    "true_class_probability": 0.031374454498291016
+  },
+  {
+    "case_id": 164,
+    "test_index": 483,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.9588047862052917,
+    "true_class_probability": 0.01589612290263176
+  },
+  {
+    "case_id": 165,
+    "test_index": 9787,
+    "true_class": "ship",
+    "true_label_idx": 8,
+    "predicted_class": "airplane",
+    "pred_label_idx": 0,
+    "confidence": 0.9582515954971313,
+    "true_class_probability": 0.041230712085962296
+  },
+  {
+    "case_id": 166,
+    "test_index": 7761,
+    "true_class": "bird",
+    "true_label_idx": 2,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.9582249522209167,
+    "true_class_probability": 0.00739704305306077
+  },
+  {
+    "case_id": 167,
+    "test_index": 6190,
+    "true_class": "deer",
+    "true_label_idx": 4,
+    "predicted_class": "bird",
+    "pred_label_idx": 2,
+    "confidence": 0.9579662680625916,
+    "true_class_probability": 0.006776420399546623
+  },
+  {
+    "case_id": 168,
+    "test_index": 5642,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "deer",
+    "pred_label_idx": 4,
+    "confidence": 0.9577963948249817,
+    "true_class_probability": 0.04097718000411987
+  },
+  {
+    "case_id": 169,
+    "test_index": 2270,
+    "true_class": "bird",
+    "true_label_idx": 2,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.9576834440231323,
+    "true_class_probability": 0.0005319052143022418
+  },
+  {
+    "case_id": 170,
+    "test_index": 2085,
+    "true_class": "airplane",
+    "true_label_idx": 0,
+    "predicted_class": "bird",
+    "pred_label_idx": 2,
+    "confidence": 0.9563050270080566,
+    "true_class_probability": 0.027983270585536957
+  },
+  {
+    "case_id": 171,
+    "test_index": 6741,
+    "true_class": "truck",
+    "true_label_idx": 9,
+    "predicted_class": "airplane",
+    "pred_label_idx": 0,
+    "confidence": 0.9555728435516357,
+    "true_class_probability": 0.04426134377717972
+  },
+  {
+    "case_id": 172,
+    "test_index": 7002,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "deer",
+    "pred_label_idx": 4,
+    "confidence": 0.9554012417793274,
+    "true_class_probability": 0.013812853954732418
+  },
+  {
+    "case_id": 173,
+    "test_index": 1265,
+    "true_class": "truck",
+    "true_label_idx": 9,
+    "predicted_class": "automobile",
+    "pred_label_idx": 1,
+    "confidence": 0.95534747838974,
+    "true_class_probability": 0.04441482201218605
+  },
+  {
+    "case_id": 174,
+    "test_index": 4921,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "frog",
+    "pred_label_idx": 6,
+    "confidence": 0.9549309611320496,
+    "true_class_probability": 0.01608753390610218
+  },
+  {
+    "case_id": 175,
+    "test_index": 2299,
+    "true_class": "frog",
+    "true_label_idx": 6,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.9546104669570923,
+    "true_class_probability": 0.043736230581998825
+  },
+  {
+    "case_id": 176,
+    "test_index": 4275,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.9536009430885315,
+    "true_class_probability": 0.04330888390541077
+  },
+  {
+    "case_id": 177,
+    "test_index": 5410,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.9535887837409973,
+    "true_class_probability": 0.015613943338394165
+  },
+  {
+    "case_id": 178,
+    "test_index": 4964,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "horse",
+    "pred_label_idx": 7,
+    "confidence": 0.9525927305221558,
+    "true_class_probability": 0.00044171931222081184
+  },
+  {
+    "case_id": 179,
+    "test_index": 8728,
+    "true_class": "frog",
+    "true_label_idx": 6,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.9521559476852417,
+    "true_class_probability": 0.00012367006274871528
+  },
+  {
+    "case_id": 180,
+    "test_index": 2804,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "horse",
+    "pred_label_idx": 7,
+    "confidence": 0.952009916305542,
+    "true_class_probability": 0.0010676616802811623
+  },
+  {
+    "case_id": 181,
+    "test_index": 1147,
+    "true_class": "frog",
+    "true_label_idx": 6,
+    "predicted_class": "truck",
+    "pred_label_idx": 9,
+    "confidence": 0.9515401124954224,
+    "true_class_probability": 0.04709506034851074
+  },
+  {
+    "case_id": 182,
+    "test_index": 7082,
+    "true_class": "bird",
+    "true_label_idx": 2,
+    "predicted_class": "airplane",
+    "pred_label_idx": 0,
+    "confidence": 0.9506784677505493,
+    "true_class_probability": 0.029286224395036697
+  },
+  {
+    "case_id": 183,
+    "test_index": 2958,
+    "true_class": "airplane",
+    "true_label_idx": 0,
+    "predicted_class": "ship",
+    "pred_label_idx": 8,
+    "confidence": 0.9500534534454346,
+    "true_class_probability": 0.013223271816968918
+  },
+  {
+    "case_id": 184,
+    "test_index": 6145,
+    "true_class": "bird",
+    "true_label_idx": 2,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.9496258497238159,
+    "true_class_probability": 0.028801094740629196
+  },
+  {
+    "case_id": 185,
+    "test_index": 8446,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.9478659629821777,
+    "true_class_probability": 0.044671379029750824
+  },
+  {
+    "case_id": 186,
+    "test_index": 811,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.9468376040458679,
+    "true_class_probability": 0.0004642514104489237
+  },
+  {
+    "case_id": 187,
+    "test_index": 3601,
+    "true_class": "airplane",
+    "true_label_idx": 0,
+    "predicted_class": "bird",
+    "pred_label_idx": 2,
+    "confidence": 0.9463632106781006,
+    "true_class_probability": 0.004780744668096304
+  },
+  {
+    "case_id": 188,
+    "test_index": 4760,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "bird",
+    "pred_label_idx": 2,
+    "confidence": 0.9458482265472412,
+    "true_class_probability": 0.024955281987786293
+  },
+  {
+    "case_id": 189,
+    "test_index": 6423,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "horse",
+    "pred_label_idx": 7,
+    "confidence": 0.9453523755073547,
+    "true_class_probability": 0.052711281925439835
+  },
+  {
+    "case_id": 190,
+    "test_index": 1938,
+    "true_class": "ship",
+    "true_label_idx": 8,
+    "predicted_class": "airplane",
+    "pred_label_idx": 0,
+    "confidence": 0.944145917892456,
+    "true_class_probability": 0.05325401946902275
+  },
+  {
+    "case_id": 191,
+    "test_index": 5426,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.943691074848175,
+    "true_class_probability": 0.0561160147190094
+  },
+  {
+    "case_id": 192,
+    "test_index": 7625,
+    "true_class": "horse",
+    "true_label_idx": 7,
+    "predicted_class": "airplane",
+    "pred_label_idx": 0,
+    "confidence": 0.9430800080299377,
+    "true_class_probability": 0.018751418218016624
+  },
+  {
+    "case_id": 193,
+    "test_index": 6631,
+    "true_class": "horse",
+    "true_label_idx": 7,
+    "predicted_class": "airplane",
+    "pred_label_idx": 0,
+    "confidence": 0.9426408410072327,
+    "true_class_probability": 0.024161526933312416
+  },
+  {
+    "case_id": 194,
+    "test_index": 9260,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.9418895840644836,
+    "true_class_probability": 0.056579895317554474
+  },
+  {
+    "case_id": 195,
+    "test_index": 8779,
+    "true_class": "horse",
+    "true_label_idx": 7,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.9417222142219543,
+    "true_class_probability": 0.033293403685092926
+  },
+  {
+    "case_id": 196,
+    "test_index": 1163,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.9388141632080078,
+    "true_class_probability": 0.039824407547712326
+  },
+  {
+    "case_id": 197,
+    "test_index": 3899,
+    "true_class": "frog",
+    "true_label_idx": 6,
+    "predicted_class": "bird",
+    "pred_label_idx": 2,
+    "confidence": 0.9371479153633118,
+    "true_class_probability": 0.0516507513821125
+  },
+  {
+    "case_id": 198,
+    "test_index": 3446,
+    "true_class": "frog",
+    "true_label_idx": 6,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.9363834261894226,
+    "true_class_probability": 0.05721620097756386
+  },
+  {
+    "case_id": 199,
+    "test_index": 2018,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "bird",
+    "pred_label_idx": 2,
+    "confidence": 0.936338484287262,
+    "true_class_probability": 0.06160841882228851
+  },
+  {
+    "case_id": 200,
+    "test_index": 4198,
+    "true_class": "ship",
+    "true_label_idx": 8,
+    "predicted_class": "airplane",
+    "pred_label_idx": 0,
+    "confidence": 0.935857892036438,
+    "true_class_probability": 0.011078031733632088
+  },
+  {
+    "case_id": 201,
+    "test_index": 5193,
+    "true_class": "deer",
+    "true_label_idx": 4,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.9350625872612,
+    "true_class_probability": 0.04948347806930542
+  },
+  {
+    "case_id": 202,
+    "test_index": 4710,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.9349049925804138,
+    "true_class_probability": 0.0026253038085997105
+  },
+  {
+    "case_id": 203,
+    "test_index": 7941,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "frog",
+    "pred_label_idx": 6,
+    "confidence": 0.9348336458206177,
+    "true_class_probability": 0.000796442967839539
+  },
+  {
+    "case_id": 204,
+    "test_index": 3342,
+    "true_class": "airplane",
+    "true_label_idx": 0,
+    "predicted_class": "ship",
+    "pred_label_idx": 8,
+    "confidence": 0.9337825179100037,
+    "true_class_probability": 0.06419096887111664
+  },
+  {
+    "case_id": 205,
+    "test_index": 3956,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "frog",
+    "pred_label_idx": 6,
+    "confidence": 0.9334466457366943,
+    "true_class_probability": 0.044094935059547424
+  },
+  {
+    "case_id": 206,
+    "test_index": 6443,
+    "true_class": "frog",
+    "true_label_idx": 6,
+    "predicted_class": "bird",
+    "pred_label_idx": 2,
+    "confidence": 0.9332956671714783,
+    "true_class_probability": 0.004516143351793289
+  },
+  {
+    "case_id": 207,
+    "test_index": 6068,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.933044970035553,
+    "true_class_probability": 0.06644367426633835
+  },
+  {
+    "case_id": 208,
+    "test_index": 3158,
+    "true_class": "airplane",
+    "true_label_idx": 0,
+    "predicted_class": "ship",
+    "pred_label_idx": 8,
+    "confidence": 0.9319274425506592,
+    "true_class_probability": 0.05749024078249931
+  },
+  {
+    "case_id": 209,
+    "test_index": 7839,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "deer",
+    "pred_label_idx": 4,
+    "confidence": 0.9315920472145081,
+    "true_class_probability": 0.06683963537216187
+  },
+  {
+    "case_id": 210,
+    "test_index": 2271,
+    "true_class": "truck",
+    "true_label_idx": 9,
+    "predicted_class": "ship",
+    "pred_label_idx": 8,
+    "confidence": 0.9308458566665649,
+    "true_class_probability": 0.04716729372739792
+  },
+  {
+    "case_id": 211,
+    "test_index": 7429,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "horse",
+    "pred_label_idx": 7,
+    "confidence": 0.9282777905464172,
+    "true_class_probability": 0.06270256638526917
+  },
+  {
+    "case_id": 212,
+    "test_index": 1181,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "frog",
+    "pred_label_idx": 6,
+    "confidence": 0.9267313480377197,
+    "true_class_probability": 0.006547056138515472
+  },
+  {
+    "case_id": 213,
+    "test_index": 8119,
+    "true_class": "frog",
+    "true_label_idx": 6,
+    "predicted_class": "bird",
+    "pred_label_idx": 2,
+    "confidence": 0.9263031482696533,
+    "true_class_probability": 0.03707114979624748
+  },
+  {
+    "case_id": 214,
+    "test_index": 426,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "frog",
+    "pred_label_idx": 6,
+    "confidence": 0.9249094724655151,
+    "true_class_probability": 0.05566192790865898
+  },
+  {
+    "case_id": 215,
+    "test_index": 4646,
+    "true_class": "bird",
+    "true_label_idx": 2,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.9244064092636108,
+    "true_class_probability": 0.04056636244058609
+  },
+  {
+    "case_id": 216,
+    "test_index": 4423,
+    "true_class": "frog",
+    "true_label_idx": 6,
+    "predicted_class": "bird",
+    "pred_label_idx": 2,
+    "confidence": 0.9238846898078918,
+    "true_class_probability": 0.05927643924951553
+  },
+  {
+    "case_id": 217,
+    "test_index": 6732,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "horse",
+    "pred_label_idx": 7,
+    "confidence": 0.9226961135864258,
+    "true_class_probability": 0.06902171671390533
+  },
+  {
+    "case_id": 218,
+    "test_index": 6750,
+    "true_class": "deer",
+    "true_label_idx": 4,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.9215250015258789,
+    "true_class_probability": 0.05064138025045395
+  },
+  {
+    "case_id": 219,
+    "test_index": 8757,
+    "true_class": "ship",
+    "true_label_idx": 8,
+    "predicted_class": "airplane",
+    "pred_label_idx": 0,
+    "confidence": 0.9208013415336609,
+    "true_class_probability": 0.007389213889837265
+  },
+  {
+    "case_id": 220,
+    "test_index": 7177,
+    "true_class": "bird",
+    "true_label_idx": 2,
+    "predicted_class": "airplane",
+    "pred_label_idx": 0,
+    "confidence": 0.9192066192626953,
+    "true_class_probability": 0.005425110924988985
+  },
+  {
+    "case_id": 221,
+    "test_index": 9375,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.918641984462738,
+    "true_class_probability": 0.07346721738576889
+  },
+  {
+    "case_id": 222,
+    "test_index": 7967,
+    "true_class": "truck",
+    "true_label_idx": 9,
+    "predicted_class": "automobile",
+    "pred_label_idx": 1,
+    "confidence": 0.9180682301521301,
+    "true_class_probability": 0.08137714117765427
+  },
+  {
+    "case_id": 223,
+    "test_index": 3211,
+    "true_class": "airplane",
+    "true_label_idx": 0,
+    "predicted_class": "truck",
+    "pred_label_idx": 9,
+    "confidence": 0.91496741771698,
+    "true_class_probability": 0.06671614199876785
+  },
+  {
+    "case_id": 224,
+    "test_index": 3600,
+    "true_class": "deer",
+    "true_label_idx": 4,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.9146409034729004,
+    "true_class_probability": 0.022239672020077705
+  },
+  {
+    "case_id": 225,
+    "test_index": 3416,
+    "true_class": "horse",
+    "true_label_idx": 7,
+    "predicted_class": "deer",
+    "pred_label_idx": 4,
+    "confidence": 0.9145967960357666,
+    "true_class_probability": 0.026227876543998718
+  },
+  {
+    "case_id": 226,
+    "test_index": 5578,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.9145801663398743,
+    "true_class_probability": 0.0682920515537262
+  },
+  {
+    "case_id": 227,
+    "test_index": 1280,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.9145657420158386,
+    "true_class_probability": 0.08532387763261795
+  },
+  {
+    "case_id": 228,
+    "test_index": 2948,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "deer",
+    "pred_label_idx": 4,
+    "confidence": 0.9140514731407166,
+    "true_class_probability": 0.004929045680910349
+  },
+  {
+    "case_id": 229,
+    "test_index": 6859,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "automobile",
+    "pred_label_idx": 1,
+    "confidence": 0.9139288067817688,
+    "true_class_probability": 0.006697246804833412
+  },
+  {
+    "case_id": 230,
+    "test_index": 3753,
+    "true_class": "deer",
+    "true_label_idx": 4,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.9138543605804443,
+    "true_class_probability": 0.0356985442340374
+  },
+  {
+    "case_id": 231,
+    "test_index": 7090,
+    "true_class": "bird",
+    "true_label_idx": 2,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.9137731194496155,
+    "true_class_probability": 0.07109827548265457
+  },
+  {
+    "case_id": 232,
+    "test_index": 882,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "airplane",
+    "pred_label_idx": 0,
+    "confidence": 0.9126191139221191,
+    "true_class_probability": 0.022892817854881287
+  },
+  {
+    "case_id": 233,
+    "test_index": 8644,
+    "true_class": "ship",
+    "true_label_idx": 8,
+    "predicted_class": "airplane",
+    "pred_label_idx": 0,
+    "confidence": 0.9114497303962708,
+    "true_class_probability": 0.03270410746335983
+  },
+  {
+    "case_id": 234,
+    "test_index": 4744,
+    "true_class": "frog",
+    "true_label_idx": 6,
+    "predicted_class": "airplane",
+    "pred_label_idx": 0,
+    "confidence": 0.9107766151428223,
+    "true_class_probability": 0.024897370487451553
+  },
+  {
+    "case_id": 235,
+    "test_index": 5206,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.9100801944732666,
+    "true_class_probability": 0.08714684098958969
+  },
+  {
+    "case_id": 236,
+    "test_index": 7680,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.9091614484786987,
+    "true_class_probability": 0.09060320258140564
+  },
+  {
+    "case_id": 237,
+    "test_index": 8637,
+    "true_class": "deer",
+    "true_label_idx": 4,
+    "predicted_class": "horse",
+    "pred_label_idx": 7,
+    "confidence": 0.9086902141571045,
+    "true_class_probability": 0.07820048928260803
+  },
+  {
+    "case_id": 238,
+    "test_index": 9120,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.9076811075210571,
+    "true_class_probability": 0.08883130550384521
+  },
+  {
+    "case_id": 239,
+    "test_index": 7398,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "bird",
+    "pred_label_idx": 2,
+    "confidence": 0.9075676798820496,
+    "true_class_probability": 0.04473462700843811
+  },
+  {
+    "case_id": 240,
+    "test_index": 2061,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "bird",
+    "pred_label_idx": 2,
+    "confidence": 0.906369149684906,
+    "true_class_probability": 0.04700665920972824
+  },
+  {
+    "case_id": 241,
+    "test_index": 2895,
+    "true_class": "horse",
+    "true_label_idx": 7,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.9051032066345215,
+    "true_class_probability": 0.00013367412611842155
+  },
+  {
+    "case_id": 242,
+    "test_index": 7041,
+    "true_class": "deer",
+    "true_label_idx": 4,
+    "predicted_class": "airplane",
+    "pred_label_idx": 0,
+    "confidence": 0.9039148092269897,
+    "true_class_probability": 0.07292129099369049
+  },
+  {
+    "case_id": 243,
+    "test_index": 5369,
+    "true_class": "deer",
+    "true_label_idx": 4,
+    "predicted_class": "bird",
+    "pred_label_idx": 2,
+    "confidence": 0.9038888216018677,
+    "true_class_probability": 0.002604890614748001
+  },
+  {
+    "case_id": 244,
+    "test_index": 9360,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.9030502438545227,
+    "true_class_probability": 0.09622641652822495
+  },
+  {
+    "case_id": 245,
+    "test_index": 739,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "horse",
+    "pred_label_idx": 7,
+    "confidence": 0.9027185440063477,
+    "true_class_probability": 0.04736996442079544
+  },
+  {
+    "case_id": 246,
+    "test_index": 7059,
+    "true_class": "deer",
+    "true_label_idx": 4,
+    "predicted_class": "bird",
+    "pred_label_idx": 2,
+    "confidence": 0.9025745987892151,
+    "true_class_probability": 0.006832542829215527
+  },
+  {
+    "case_id": 247,
+    "test_index": 916,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "deer",
+    "pred_label_idx": 4,
+    "confidence": 0.9022409915924072,
+    "true_class_probability": 0.015207459218800068
+  },
+  {
+    "case_id": 248,
+    "test_index": 1303,
+    "true_class": "deer",
+    "true_label_idx": 4,
+    "predicted_class": "frog",
+    "pred_label_idx": 6,
+    "confidence": 0.9015239477157593,
+    "true_class_probability": 0.0973803699016571
+  },
+  {
+    "case_id": 249,
+    "test_index": 2650,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "bird",
+    "pred_label_idx": 2,
+    "confidence": 0.8997653722763062,
+    "true_class_probability": 0.07078845798969269
+  },
+  {
+    "case_id": 250,
+    "test_index": 5882,
+    "true_class": "automobile",
+    "true_label_idx": 1,
+    "predicted_class": "truck",
+    "pred_label_idx": 9,
+    "confidence": 0.8996695280075073,
+    "true_class_probability": 0.10014323145151138
+  },
+  {
+    "case_id": 251,
+    "test_index": 5839,
+    "true_class": "bird",
+    "true_label_idx": 2,
+    "predicted_class": "frog",
+    "pred_label_idx": 6,
+    "confidence": 0.8990291357040405,
+    "true_class_probability": 0.018470777198672295
+  },
+  {
+    "case_id": 252,
+    "test_index": 1816,
+    "true_class": "horse",
+    "true_label_idx": 7,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.8977833986282349,
+    "true_class_probability": 0.09292855113744736
+  },
+  {
+    "case_id": 253,
+    "test_index": 5200,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.897672712802887,
+    "true_class_probability": 0.09809571504592896
+  },
+  {
+    "case_id": 254,
+    "test_index": 4750,
+    "true_class": "horse",
+    "true_label_idx": 7,
+    "predicted_class": "deer",
+    "pred_label_idx": 4,
+    "confidence": 0.8932533264160156,
+    "true_class_probability": 0.006547816563397646
+  },
+  {
+    "case_id": 255,
+    "test_index": 59,
+    "true_class": "frog",
+    "true_label_idx": 6,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.8925377726554871,
+    "true_class_probability": 0.10167916119098663
+  },
+  {
+    "case_id": 256,
+    "test_index": 8620,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "bird",
+    "pred_label_idx": 2,
+    "confidence": 0.8920284509658813,
+    "true_class_probability": 0.015129206702113152
+  },
+  {
+    "case_id": 257,
+    "test_index": 2293,
+    "true_class": "ship",
+    "true_label_idx": 8,
+    "predicted_class": "automobile",
+    "pred_label_idx": 1,
+    "confidence": 0.8919986486434937,
+    "true_class_probability": 0.038267068564891815
+  },
+  {
+    "case_id": 258,
+    "test_index": 4628,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "horse",
+    "pred_label_idx": 7,
+    "confidence": 0.8917145133018494,
+    "true_class_probability": 0.027385033667087555
+  },
+  {
+    "case_id": 259,
+    "test_index": 3977,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "frog",
+    "pred_label_idx": 6,
+    "confidence": 0.891411304473877,
+    "true_class_probability": 0.07289094477891922
+  },
+  {
+    "case_id": 260,
+    "test_index": 3297,
+    "true_class": "deer",
+    "true_label_idx": 4,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.89113450050354,
+    "true_class_probability": 0.08446265012025833
+  },
+  {
+    "case_id": 261,
+    "test_index": 7892,
+    "true_class": "automobile",
+    "true_label_idx": 1,
+    "predicted_class": "truck",
+    "pred_label_idx": 9,
+    "confidence": 0.8908306360244751,
+    "true_class_probability": 0.10614289343357086
+  },
+  {
+    "case_id": 262,
+    "test_index": 8166,
+    "true_class": "bird",
+    "true_label_idx": 2,
+    "predicted_class": "frog",
+    "pred_label_idx": 6,
+    "confidence": 0.8906773924827576,
+    "true_class_probability": 0.0034334282390773296
+  },
+  {
+    "case_id": 263,
+    "test_index": 7962,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.8893451690673828,
+    "true_class_probability": 0.09192462265491486
+  },
+  {
+    "case_id": 264,
+    "test_index": 9380,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.8884583711624146,
+    "true_class_probability": 0.11019635200500488
+  },
+  {
+    "case_id": 265,
+    "test_index": 8573,
+    "true_class": "frog",
+    "true_label_idx": 6,
+    "predicted_class": "airplane",
+    "pred_label_idx": 0,
+    "confidence": 0.8881797194480896,
+    "true_class_probability": 0.02432933636009693
+  },
+  {
+    "case_id": 266,
+    "test_index": 2174,
+    "true_class": "truck",
+    "true_label_idx": 9,
+    "predicted_class": "ship",
+    "pred_label_idx": 8,
+    "confidence": 0.8871116638183594,
+    "true_class_probability": 0.04105189070105553
+  },
+  {
+    "case_id": 267,
+    "test_index": 5416,
+    "true_class": "truck",
+    "true_label_idx": 9,
+    "predicted_class": "automobile",
+    "pred_label_idx": 1,
+    "confidence": 0.8863103985786438,
+    "true_class_probability": 0.10568320751190186
+  },
+  {
+    "case_id": 268,
+    "test_index": 1228,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.8850409984588623,
+    "true_class_probability": 0.10155390202999115
+  },
+  {
+    "case_id": 269,
+    "test_index": 5607,
+    "true_class": "frog",
+    "true_label_idx": 6,
+    "predicted_class": "airplane",
+    "pred_label_idx": 0,
+    "confidence": 0.8847700357437134,
+    "true_class_probability": 0.011994341388344765
+  },
+  {
+    "case_id": 270,
+    "test_index": 8827,
+    "true_class": "bird",
+    "true_label_idx": 2,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.8842968344688416,
+    "true_class_probability": 0.006903883069753647
+  },
+  {
+    "case_id": 271,
+    "test_index": 5493,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "frog",
+    "pred_label_idx": 6,
+    "confidence": 0.8822344541549683,
+    "true_class_probability": 0.11617446690797806
+  },
+  {
+    "case_id": 272,
+    "test_index": 6135,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "deer",
+    "pred_label_idx": 4,
+    "confidence": 0.8818824887275696,
+    "true_class_probability": 0.02373187243938446
+  },
+  {
+    "case_id": 273,
+    "test_index": 4754,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "ship",
+    "pred_label_idx": 8,
+    "confidence": 0.8812286257743835,
+    "true_class_probability": 0.02588409185409546
+  },
+  {
+    "case_id": 274,
+    "test_index": 2675,
+    "true_class": "bird",
+    "true_label_idx": 2,
+    "predicted_class": "frog",
+    "pred_label_idx": 6,
+    "confidence": 0.8811700940132141,
+    "true_class_probability": 0.018821928650140762
+  },
+  {
+    "case_id": 275,
+    "test_index": 7134,
+    "true_class": "deer",
+    "true_label_idx": 4,
+    "predicted_class": "frog",
+    "pred_label_idx": 6,
+    "confidence": 0.8790603280067444,
+    "true_class_probability": 0.05054948106408119
+  },
+  {
+    "case_id": 276,
+    "test_index": 3084,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.8787773251533508,
+    "true_class_probability": 0.11844805628061295
+  },
+  {
+    "case_id": 277,
+    "test_index": 6980,
+    "true_class": "airplane",
+    "true_label_idx": 0,
+    "predicted_class": "ship",
+    "pred_label_idx": 8,
+    "confidence": 0.8769840002059937,
+    "true_class_probability": 0.1226680651307106
+  },
+  {
+    "case_id": 278,
+    "test_index": 4555,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "horse",
+    "pred_label_idx": 7,
+    "confidence": 0.8755614757537842,
+    "true_class_probability": 0.07172085344791412
+  },
+  {
+    "case_id": 279,
+    "test_index": 683,
+    "true_class": "ship",
+    "true_label_idx": 8,
+    "predicted_class": "airplane",
+    "pred_label_idx": 0,
+    "confidence": 0.875461220741272,
+    "true_class_probability": 0.10196057707071304
+  },
+  {
+    "case_id": 280,
+    "test_index": 4865,
+    "true_class": "ship",
+    "true_label_idx": 8,
+    "predicted_class": "truck",
+    "pred_label_idx": 9,
+    "confidence": 0.8749036192893982,
+    "true_class_probability": 0.10365638136863708
+  },
+  {
+    "case_id": 281,
+    "test_index": 5468,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.8746224641799927,
+    "true_class_probability": 0.12512017786502838
+  },
+  {
+    "case_id": 282,
+    "test_index": 1898,
+    "true_class": "airplane",
+    "true_label_idx": 0,
+    "predicted_class": "automobile",
+    "pred_label_idx": 1,
+    "confidence": 0.8743073344230652,
+    "true_class_probability": 0.11764220893383026
+  },
+  {
+    "case_id": 283,
+    "test_index": 8281,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.8737109303474426,
+    "true_class_probability": 0.12618814408779144
+  },
+  {
+    "case_id": 284,
+    "test_index": 4003,
+    "true_class": "bird",
+    "true_label_idx": 2,
+    "predicted_class": "airplane",
+    "pred_label_idx": 0,
+    "confidence": 0.8724459409713745,
+    "true_class_probability": 0.12724804878234863
+  },
+  {
+    "case_id": 285,
+    "test_index": 2785,
+    "true_class": "deer",
+    "true_label_idx": 4,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.8688680529594421,
+    "true_class_probability": 0.02744258940219879
+  },
+  {
+    "case_id": 286,
+    "test_index": 4740,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.8686316609382629,
+    "true_class_probability": 0.002165580401197076
+  },
+  {
+    "case_id": 287,
+    "test_index": 3779,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "deer",
+    "pred_label_idx": 4,
+    "confidence": 0.8685179948806763,
+    "true_class_probability": 0.10258965939283371
+  },
+  {
+    "case_id": 288,
+    "test_index": 9414,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.866657555103302,
+    "true_class_probability": 0.13300642371177673
+  },
+  {
+    "case_id": 289,
+    "test_index": 9435,
+    "true_class": "bird",
+    "true_label_idx": 2,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.865135133266449,
+    "true_class_probability": 0.10691908001899719
+  },
+  {
+    "case_id": 290,
+    "test_index": 1177,
+    "true_class": "truck",
+    "true_label_idx": 9,
+    "predicted_class": "automobile",
+    "pred_label_idx": 1,
+    "confidence": 0.8623965382575989,
+    "true_class_probability": 0.13738954067230225
+  },
+  {
+    "case_id": 291,
+    "test_index": 7842,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.8616137504577637,
+    "true_class_probability": 0.09244423359632492
+  },
+  {
+    "case_id": 292,
+    "test_index": 470,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "deer",
+    "pred_label_idx": 4,
+    "confidence": 0.8610227704048157,
+    "true_class_probability": 0.0393589623272419
+  },
+  {
+    "case_id": 293,
+    "test_index": 5030,
+    "true_class": "deer",
+    "true_label_idx": 4,
+    "predicted_class": "airplane",
+    "pred_label_idx": 0,
+    "confidence": 0.856950581073761,
+    "true_class_probability": 0.03347254917025566
+  },
+  {
+    "case_id": 294,
+    "test_index": 6428,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "frog",
+    "pred_label_idx": 6,
+    "confidence": 0.8551091551780701,
+    "true_class_probability": 0.05913127213716507
+  },
+  {
+    "case_id": 295,
+    "test_index": 6912,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "bird",
+    "pred_label_idx": 2,
+    "confidence": 0.8531396389007568,
+    "true_class_probability": 0.02446439117193222
+  },
+  {
+    "case_id": 296,
+    "test_index": 7068,
+    "true_class": "bird",
+    "true_label_idx": 2,
+    "predicted_class": "airplane",
+    "pred_label_idx": 0,
+    "confidence": 0.8530836701393127,
+    "true_class_probability": 0.11830848455429077
+  },
+  {
+    "case_id": 297,
+    "test_index": 2335,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "bird",
+    "pred_label_idx": 2,
+    "confidence": 0.8529241681098938,
+    "true_class_probability": 0.14630813896656036
+  },
+  {
+    "case_id": 298,
+    "test_index": 4152,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "automobile",
+    "pred_label_idx": 1,
+    "confidence": 0.8512834906578064,
+    "true_class_probability": 0.02119700238108635
+  },
+  {
+    "case_id": 299,
+    "test_index": 8401,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.8509910702705383,
+    "true_class_probability": 0.14405480027198792
+  },
+  {
+    "case_id": 300,
+    "test_index": 3607,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "bird",
+    "pred_label_idx": 2,
+    "confidence": 0.8499947190284729,
+    "true_class_probability": 0.015012980438768864
+  },
+  {
+    "case_id": 301,
+    "test_index": 1862,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.8495375514030457,
+    "true_class_probability": 0.0323503315448761
+  },
+  {
+    "case_id": 302,
+    "test_index": 422,
+    "true_class": "airplane",
+    "true_label_idx": 0,
+    "predicted_class": "ship",
+    "pred_label_idx": 8,
+    "confidence": 0.8494700789451599,
+    "true_class_probability": 0.15046824514865875
+  },
+  {
+    "case_id": 303,
+    "test_index": 7983,
+    "true_class": "frog",
+    "true_label_idx": 6,
+    "predicted_class": "ship",
+    "pred_label_idx": 8,
+    "confidence": 0.8476125597953796,
+    "true_class_probability": 0.13563960790634155
+  },
+  {
+    "case_id": 304,
+    "test_index": 776,
+    "true_class": "bird",
+    "true_label_idx": 2,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.8451194763183594,
+    "true_class_probability": 0.010262367315590382
+  },
+  {
+    "case_id": 305,
+    "test_index": 1610,
+    "true_class": "bird",
+    "true_label_idx": 2,
+    "predicted_class": "deer",
+    "pred_label_idx": 4,
+    "confidence": 0.8440731167793274,
+    "true_class_probability": 0.047196533530950546
+  },
+  {
+    "case_id": 306,
+    "test_index": 1263,
+    "true_class": "ship",
+    "true_label_idx": 8,
+    "predicted_class": "airplane",
+    "pred_label_idx": 0,
+    "confidence": 0.8440125584602356,
+    "true_class_probability": 0.15419235825538635
+  },
+  {
+    "case_id": 307,
+    "test_index": 165,
+    "true_class": "deer",
+    "true_label_idx": 4,
+    "predicted_class": "bird",
+    "pred_label_idx": 2,
+    "confidence": 0.843562662601471,
+    "true_class_probability": 0.1442028433084488
+  },
+  {
+    "case_id": 308,
+    "test_index": 6101,
+    "true_class": "truck",
+    "true_label_idx": 9,
+    "predicted_class": "automobile",
+    "pred_label_idx": 1,
+    "confidence": 0.8420462608337402,
+    "true_class_probability": 0.15419217944145203
+  },
+  {
+    "case_id": 309,
+    "test_index": 9289,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.8388189673423767,
+    "true_class_probability": 0.10721927136182785
+  },
+  {
+    "case_id": 310,
+    "test_index": 5734,
+    "true_class": "frog",
+    "true_label_idx": 6,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.8384597897529602,
+    "true_class_probability": 0.09291871637105942
+  },
+  {
+    "case_id": 311,
+    "test_index": 342,
+    "true_class": "bird",
+    "true_label_idx": 2,
+    "predicted_class": "airplane",
+    "pred_label_idx": 0,
+    "confidence": 0.8380755186080933,
+    "true_class_probability": 0.16124607622623444
+  },
+  {
+    "case_id": 312,
+    "test_index": 6419,
+    "true_class": "truck",
+    "true_label_idx": 9,
+    "predicted_class": "ship",
+    "pred_label_idx": 8,
+    "confidence": 0.837715208530426,
+    "true_class_probability": 0.018612297251820564
+  },
+  {
+    "case_id": 313,
+    "test_index": 7406,
+    "true_class": "horse",
+    "true_label_idx": 7,
+    "predicted_class": "bird",
+    "pred_label_idx": 2,
+    "confidence": 0.8353188037872314,
+    "true_class_probability": 0.06889407336711884
+  },
+  {
+    "case_id": 314,
+    "test_index": 1731,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.8326783180236816,
+    "true_class_probability": 0.16324853897094727
+  },
+  {
+    "case_id": 315,
+    "test_index": 9216,
+    "true_class": "frog",
+    "true_label_idx": 6,
+    "predicted_class": "bird",
+    "pred_label_idx": 2,
+    "confidence": 0.8316174149513245,
+    "true_class_probability": 0.04060102626681328
+  },
+  {
+    "case_id": 316,
+    "test_index": 9422,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.8249335885047913,
+    "true_class_probability": 0.158400759100914
+  },
+  {
+    "case_id": 317,
+    "test_index": 7999,
+    "true_class": "frog",
+    "true_label_idx": 6,
+    "predicted_class": "bird",
+    "pred_label_idx": 2,
+    "confidence": 0.8229232430458069,
+    "true_class_probability": 0.11689791083335876
+  },
+  {
+    "case_id": 318,
+    "test_index": 3596,
+    "true_class": "bird",
+    "true_label_idx": 2,
+    "predicted_class": "deer",
+    "pred_label_idx": 4,
+    "confidence": 0.8216737508773804,
+    "true_class_probability": 0.02120472677052021
+  },
+  {
+    "case_id": 319,
+    "test_index": 3615,
+    "true_class": "frog",
+    "true_label_idx": 6,
+    "predicted_class": "bird",
+    "pred_label_idx": 2,
+    "confidence": 0.8197629451751709,
+    "true_class_probability": 0.00027420162223279476
+  },
+  {
+    "case_id": 320,
+    "test_index": 2519,
+    "true_class": "deer",
+    "true_label_idx": 4,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.8181966543197632,
+    "true_class_probability": 0.1606641411781311
+  },
+  {
+    "case_id": 321,
+    "test_index": 4965,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "deer",
+    "pred_label_idx": 4,
+    "confidence": 0.8174258470535278,
+    "true_class_probability": 0.13376721739768982
+  },
+  {
+    "case_id": 322,
+    "test_index": 7561,
+    "true_class": "bird",
+    "true_label_idx": 2,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.8163211345672607,
+    "true_class_probability": 0.04410361498594284
+  },
+  {
+    "case_id": 323,
+    "test_index": 5830,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.81495600938797,
+    "true_class_probability": 0.1737745702266693
+  },
+  {
+    "case_id": 324,
+    "test_index": 52,
+    "true_class": "airplane",
+    "true_label_idx": 0,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.8137375712394714,
+    "true_class_probability": 0.12432238459587097
+  },
+  {
+    "case_id": 325,
+    "test_index": 3584,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.8061222434043884,
+    "true_class_probability": 0.19356751441955566
+  },
+  {
+    "case_id": 326,
+    "test_index": 9376,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.8056435585021973,
+    "true_class_probability": 0.18345221877098083
+  },
+  {
+    "case_id": 327,
+    "test_index": 4051,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.8025344610214233,
+    "true_class_probability": 0.1945090889930725
+  },
+  {
+    "case_id": 328,
+    "test_index": 2232,
+    "true_class": "airplane",
+    "true_label_idx": 0,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.80240398645401,
+    "true_class_probability": 0.00033073287340812385
+  },
+  {
+    "case_id": 329,
+    "test_index": 2496,
+    "true_class": "truck",
+    "true_label_idx": 9,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.8019266128540039,
+    "true_class_probability": 0.13879990577697754
+  },
+  {
+    "case_id": 330,
+    "test_index": 1804,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.7992885708808899,
+    "true_class_probability": 0.1250738948583603
+  },
+  {
+    "case_id": 331,
+    "test_index": 8314,
+    "true_class": "frog",
+    "true_label_idx": 6,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.797918438911438,
+    "true_class_probability": 0.04472353309392929
+  },
+  {
+    "case_id": 332,
+    "test_index": 3113,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "bird",
+    "pred_label_idx": 2,
+    "confidence": 0.7956148982048035,
+    "true_class_probability": 0.16737332940101624
+  },
+  {
+    "case_id": 333,
+    "test_index": 3622,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.7948943972587585,
+    "true_class_probability": 0.20461823046207428
+  },
+  {
+    "case_id": 334,
+    "test_index": 5987,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "horse",
+    "pred_label_idx": 7,
+    "confidence": 0.7943893671035767,
+    "true_class_probability": 0.18592914938926697
+  },
+  {
+    "case_id": 335,
+    "test_index": 3828,
+    "true_class": "automobile",
+    "true_label_idx": 1,
+    "predicted_class": "airplane",
+    "pred_label_idx": 0,
+    "confidence": 0.7941219806671143,
+    "true_class_probability": 0.132578045129776
+  },
+  {
+    "case_id": 336,
+    "test_index": 3026,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "horse",
+    "pred_label_idx": 7,
+    "confidence": 0.7931651473045349,
+    "true_class_probability": 0.1953612118959427
+  },
+  {
+    "case_id": 337,
+    "test_index": 2779,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.7907590866088867,
+    "true_class_probability": 0.11679475009441376
+  },
+  {
+    "case_id": 338,
+    "test_index": 6653,
+    "true_class": "airplane",
+    "true_label_idx": 0,
+    "predicted_class": "bird",
+    "pred_label_idx": 2,
+    "confidence": 0.7901985049247742,
+    "true_class_probability": 0.19113770127296448
+  },
+  {
+    "case_id": 339,
+    "test_index": 2111,
+    "true_class": "truck",
+    "true_label_idx": 9,
+    "predicted_class": "automobile",
+    "pred_label_idx": 1,
+    "confidence": 0.7897828817367554,
+    "true_class_probability": 0.20838212966918945
+  },
+  {
+    "case_id": 340,
+    "test_index": 6151,
+    "true_class": "horse",
+    "true_label_idx": 7,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.7888900637626648,
+    "true_class_probability": 0.008761302568018436
+  },
+  {
+    "case_id": 341,
+    "test_index": 1506,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "horse",
+    "pred_label_idx": 7,
+    "confidence": 0.7885664105415344,
+    "true_class_probability": 0.004681007470935583
+  },
+  {
+    "case_id": 342,
+    "test_index": 982,
+    "true_class": "airplane",
+    "true_label_idx": 0,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.7870607972145081,
+    "true_class_probability": 0.09512169659137726
+  },
+  {
+    "case_id": 343,
+    "test_index": 9501,
+    "true_class": "frog",
+    "true_label_idx": 6,
+    "predicted_class": "airplane",
+    "pred_label_idx": 0,
+    "confidence": 0.7846359610557556,
+    "true_class_probability": 0.143792524933815
+  },
+  {
+    "case_id": 344,
+    "test_index": 4962,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "ship",
+    "pred_label_idx": 8,
+    "confidence": 0.7822995781898499,
+    "true_class_probability": 0.19634579122066498
+  },
+  {
+    "case_id": 345,
+    "test_index": 7657,
+    "true_class": "bird",
+    "true_label_idx": 2,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.7813936471939087,
+    "true_class_probability": 0.0007529606809839606
+  },
+  {
+    "case_id": 346,
+    "test_index": 708,
+    "true_class": "ship",
+    "true_label_idx": 8,
+    "predicted_class": "airplane",
+    "pred_label_idx": 0,
+    "confidence": 0.7788490056991577,
+    "true_class_probability": 0.21905286610126495
+  },
+  {
+    "case_id": 347,
+    "test_index": 6160,
+    "true_class": "bird",
+    "true_label_idx": 2,
+    "predicted_class": "frog",
+    "pred_label_idx": 6,
+    "confidence": 0.7777749300003052,
+    "true_class_probability": 0.17721465229988098
+  },
+  {
+    "case_id": 348,
+    "test_index": 4547,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.7742100358009338,
+    "true_class_probability": 0.2167986035346985
+  },
+  {
+    "case_id": 349,
+    "test_index": 1495,
+    "true_class": "bird",
+    "true_label_idx": 2,
+    "predicted_class": "airplane",
+    "pred_label_idx": 0,
+    "confidence": 0.7697930335998535,
+    "true_class_probability": 0.23002725839614868
+  },
+  {
+    "case_id": 350,
+    "test_index": 433,
+    "true_class": "horse",
+    "true_label_idx": 7,
+    "predicted_class": "deer",
+    "pred_label_idx": 4,
+    "confidence": 0.7694393396377563,
+    "true_class_probability": 0.21520015597343445
+  },
+  {
+    "case_id": 351,
+    "test_index": 1088,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.7670992016792297,
+    "true_class_probability": 0.23282912373542786
+  },
+  {
+    "case_id": 352,
+    "test_index": 853,
+    "true_class": "truck",
+    "true_label_idx": 9,
+    "predicted_class": "automobile",
+    "pred_label_idx": 1,
+    "confidence": 0.7669637799263,
+    "true_class_probability": 0.23281998932361603
+  },
+  {
+    "case_id": 353,
+    "test_index": 4094,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.7656710147857666,
+    "true_class_probability": 0.2338310033082962
+  },
+  {
+    "case_id": 354,
+    "test_index": 8521,
+    "true_class": "truck",
+    "true_label_idx": 9,
+    "predicted_class": "ship",
+    "pred_label_idx": 8,
+    "confidence": 0.761171817779541,
+    "true_class_probability": 0.22449707984924316
+  },
+  {
+    "case_id": 355,
+    "test_index": 9370,
+    "true_class": "ship",
+    "true_label_idx": 8,
+    "predicted_class": "automobile",
+    "pred_label_idx": 1,
+    "confidence": 0.7597887516021729,
+    "true_class_probability": 0.19369441270828247
+  },
+  {
+    "case_id": 356,
+    "test_index": 7931,
+    "true_class": "truck",
+    "true_label_idx": 9,
+    "predicted_class": "automobile",
+    "pred_label_idx": 1,
+    "confidence": 0.7597352862358093,
+    "true_class_probability": 0.1799631416797638
+  },
+  {
+    "case_id": 357,
+    "test_index": 4367,
+    "true_class": "airplane",
+    "true_label_idx": 0,
+    "predicted_class": "truck",
+    "pred_label_idx": 9,
+    "confidence": 0.7597226500511169,
+    "true_class_probability": 0.1231764554977417
+  },
+  {
+    "case_id": 358,
+    "test_index": 8617,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "deer",
+    "pred_label_idx": 4,
+    "confidence": 0.7561130523681641,
+    "true_class_probability": 0.21361111104488373
+  },
+  {
+    "case_id": 359,
+    "test_index": 3320,
+    "true_class": "bird",
+    "true_label_idx": 2,
+    "predicted_class": "deer",
+    "pred_label_idx": 4,
+    "confidence": 0.7552535533905029,
+    "true_class_probability": 0.009290003217756748
+  },
+  {
+    "case_id": 360,
+    "test_index": 5708,
+    "true_class": "bird",
+    "true_label_idx": 2,
+    "predicted_class": "horse",
+    "pred_label_idx": 7,
+    "confidence": 0.7538599967956543,
+    "true_class_probability": 0.1660977154970169
+  },
+  {
+    "case_id": 361,
+    "test_index": 2810,
+    "true_class": "truck",
+    "true_label_idx": 9,
+    "predicted_class": "airplane",
+    "pred_label_idx": 0,
+    "confidence": 0.7527644634246826,
+    "true_class_probability": 0.20082415640354156
+  },
+  {
+    "case_id": 362,
+    "test_index": 1248,
+    "true_class": "bird",
+    "true_label_idx": 2,
+    "predicted_class": "deer",
+    "pred_label_idx": 4,
+    "confidence": 0.751564085483551,
+    "true_class_probability": 0.019850648939609528
+  },
+  {
+    "case_id": 363,
+    "test_index": 5203,
+    "true_class": "frog",
+    "true_label_idx": 6,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.7508020997047424,
+    "true_class_probability": 0.24865126609802246
+  },
+  {
+    "case_id": 364,
+    "test_index": 7600,
+    "true_class": "ship",
+    "true_label_idx": 8,
+    "predicted_class": "automobile",
+    "pred_label_idx": 1,
+    "confidence": 0.7495609521865845,
+    "true_class_probability": 0.24059052765369415
+  },
+  {
+    "case_id": 365,
+    "test_index": 8212,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.7487693428993225,
+    "true_class_probability": 0.15320827066898346
+  },
+  {
+    "case_id": 366,
+    "test_index": 312,
+    "true_class": "ship",
+    "true_label_idx": 8,
+    "predicted_class": "airplane",
+    "pred_label_idx": 0,
+    "confidence": 0.7480605840682983,
+    "true_class_probability": 0.2509434223175049
+  },
+  {
+    "case_id": 367,
+    "test_index": 598,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.7451977133750916,
+    "true_class_probability": 0.18707692623138428
+  },
+  {
+    "case_id": 368,
+    "test_index": 7005,
+    "true_class": "automobile",
+    "true_label_idx": 1,
+    "predicted_class": "truck",
+    "pred_label_idx": 9,
+    "confidence": 0.7428528070449829,
+    "true_class_probability": 0.18191826343536377
+  },
+  {
+    "case_id": 369,
+    "test_index": 5130,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "bird",
+    "pred_label_idx": 2,
+    "confidence": 0.7428199648857117,
+    "true_class_probability": 0.07939795404672623
+  },
+  {
+    "case_id": 370,
+    "test_index": 3309,
+    "true_class": "deer",
+    "true_label_idx": 4,
+    "predicted_class": "horse",
+    "pred_label_idx": 7,
+    "confidence": 0.7423458695411682,
+    "true_class_probability": 0.06939689069986343
+  },
+  {
+    "case_id": 371,
+    "test_index": 5900,
+    "true_class": "deer",
+    "true_label_idx": 4,
+    "predicted_class": "horse",
+    "pred_label_idx": 7,
+    "confidence": 0.7378178238868713,
+    "true_class_probability": 0.25026100873947144
+  },
+  {
+    "case_id": 372,
+    "test_index": 78,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.7360336184501648,
+    "true_class_probability": 0.2626245319843292
+  },
+  {
+    "case_id": 373,
+    "test_index": 61,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.7357383370399475,
+    "true_class_probability": 0.2634674608707428
+  },
+  {
+    "case_id": 374,
+    "test_index": 6869,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.7329881191253662,
+    "true_class_probability": 0.18298858404159546
+  },
+  {
+    "case_id": 375,
+    "test_index": 7578,
+    "true_class": "truck",
+    "true_label_idx": 9,
+    "predicted_class": "automobile",
+    "pred_label_idx": 1,
+    "confidence": 0.7327746748924255,
+    "true_class_probability": 0.15148991346359253
+  },
+  {
+    "case_id": 376,
+    "test_index": 7545,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.7327196598052979,
+    "true_class_probability": 0.2574578821659088
+  },
+  {
+    "case_id": 377,
+    "test_index": 770,
+    "true_class": "frog",
+    "true_label_idx": 6,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.7293370962142944,
+    "true_class_probability": 0.0027699454221874475
+  },
+  {
+    "case_id": 378,
+    "test_index": 2590,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.7289413809776306,
+    "true_class_probability": 0.002099451143294573
+  },
+  {
+    "case_id": 379,
+    "test_index": 3531,
+    "true_class": "ship",
+    "true_label_idx": 8,
+    "predicted_class": "truck",
+    "pred_label_idx": 9,
+    "confidence": 0.728324830532074,
+    "true_class_probability": 0.2653939425945282
+  },
+  {
+    "case_id": 380,
+    "test_index": 6257,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "bird",
+    "pred_label_idx": 2,
+    "confidence": 0.7249945998191833,
+    "true_class_probability": 0.13660316169261932
+  },
+  {
+    "case_id": 381,
+    "test_index": 8887,
+    "true_class": "deer",
+    "true_label_idx": 4,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.7232245802879333,
+    "true_class_probability": 0.2733037769794464
+  },
+  {
+    "case_id": 382,
+    "test_index": 3032,
+    "true_class": "bird",
+    "true_label_idx": 2,
+    "predicted_class": "deer",
+    "pred_label_idx": 4,
+    "confidence": 0.7217642664909363,
+    "true_class_probability": 0.026812830939888954
+  },
+  {
+    "case_id": 383,
+    "test_index": 4910,
+    "true_class": "ship",
+    "true_label_idx": 8,
+    "predicted_class": "truck",
+    "pred_label_idx": 9,
+    "confidence": 0.7212556004524231,
+    "true_class_probability": 0.18600556254386902
+  },
+  {
+    "case_id": 384,
+    "test_index": 2634,
+    "true_class": "automobile",
+    "true_label_idx": 1,
+    "predicted_class": "truck",
+    "pred_label_idx": 9,
+    "confidence": 0.7202380299568176,
+    "true_class_probability": 0.27852505445480347
+  },
+  {
+    "case_id": 385,
+    "test_index": 9274,
+    "true_class": "ship",
+    "true_label_idx": 8,
+    "predicted_class": "airplane",
+    "pred_label_idx": 0,
+    "confidence": 0.7193413972854614,
+    "true_class_probability": 0.27864736318588257
+  },
+  {
+    "case_id": 386,
+    "test_index": 4139,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "airplane",
+    "pred_label_idx": 0,
+    "confidence": 0.7179133892059326,
+    "true_class_probability": 0.05350278690457344
+  },
+  {
+    "case_id": 387,
+    "test_index": 5700,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.7162420749664307,
+    "true_class_probability": 0.27567058801651
+  },
+  {
+    "case_id": 388,
+    "test_index": 47,
+    "true_class": "truck",
+    "true_label_idx": 9,
+    "predicted_class": "ship",
+    "pred_label_idx": 8,
+    "confidence": 0.7157148718833923,
+    "true_class_probability": 0.0005431206081993878
+  },
+  {
+    "case_id": 389,
+    "test_index": 3275,
+    "true_class": "dog",
+    "true_label_idx": 5,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.7117054462432861,
+    "true_class_probability": 0.1664295345544815
+  },
+  {
+    "case_id": 390,
+    "test_index": 1739,
+    "true_class": "airplane",
+    "true_label_idx": 0,
+    "predicted_class": "bird",
+    "pred_label_idx": 2,
+    "confidence": 0.7099229693412781,
+    "true_class_probability": 0.1331038922071457
+  },
+  {
+    "case_id": 391,
+    "test_index": 1895,
+    "true_class": "ship",
+    "true_label_idx": 8,
+    "predicted_class": "airplane",
+    "pred_label_idx": 0,
+    "confidence": 0.7085127234458923,
+    "true_class_probability": 0.10223446041345596
+  },
+  {
+    "case_id": 392,
+    "test_index": 6245,
+    "true_class": "frog",
+    "true_label_idx": 6,
+    "predicted_class": "cat",
+    "pred_label_idx": 3,
+    "confidence": 0.7077780961990356,
+    "true_class_probability": 0.14372019469738007
+  },
+  {
+    "case_id": 393,
+    "test_index": 2322,
+    "true_class": "airplane",
+    "true_label_idx": 0,
+    "predicted_class": "bird",
+    "pred_label_idx": 2,
+    "confidence": 0.7075905203819275,
+    "true_class_probability": 0.2918500602245331
+  },
+  {
+    "case_id": 394,
+    "test_index": 4355,
+    "true_class": "airplane",
+    "true_label_idx": 0,
+    "predicted_class": "bird",
+    "pred_label_idx": 2,
+    "confidence": 0.7070534825325012,
+    "true_class_probability": 0.0005472871707752347
+  },
+  {
+    "case_id": 395,
+    "test_index": 2422,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "horse",
+    "pred_label_idx": 7,
+    "confidence": 0.7061406970024109,
+    "true_class_probability": 0.19711525738239288
+  },
+  {
+    "case_id": 396,
+    "test_index": 5560,
+    "true_class": "cat",
+    "true_label_idx": 3,
+    "predicted_class": "dog",
+    "pred_label_idx": 5,
+    "confidence": 0.7051345109939575,
+    "true_class_probability": 0.2895141541957855
+  },
+  {
+    "case_id": 397,
+    "test_index": 3785,
+    "true_class": "frog",
+    "true_label_idx": 6,
+    "predicted_class": "deer",
+    "pred_label_idx": 4,
+    "confidence": 0.7019687294960022,
+    "true_class_probability": 0.03727905824780464
+  },
+  {
+    "case_id": 398,
+    "test_index": 3789,
+    "true_class": "truck",
+    "true_label_idx": 9,
+    "predicted_class": "automobile",
+    "pred_label_idx": 1,
+    "confidence": 0.7012423276901245,
+    "true_class_probability": 0.2725929915904999
+  }
+]

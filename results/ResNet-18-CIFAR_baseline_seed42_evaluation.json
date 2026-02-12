@@ -1,0 +1,18 @@
+{
+  "experiment": "ResNet-18-CIFAR_baseline_seed42",
+  "overall_accuracy": 93.98,
+  "per_class_accuracy": {
+    "airplane": 94.6,
+    "automobile": 98.0,
+    "bird": 91.9,
+    "cat": 86.8,
+    "deer": 95.5,
+    "dog": 89.3,
+    "frog": 95.9,
+    "horse": 96.2,
+    "ship": 95.8,
+    "truck": 95.8
+  },
+  "num_high_confidence_failures": 398,
+  "failure_threshold": 0.7
+}
