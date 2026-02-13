@@ -3,10 +3,9 @@ Data Loading Utilities for CIFAR-10
 
 This module provides standardized data loading pipelines for:
 1. Baseline training (standard augmentation)
-2. Cutout-enhanced training (with cutout regularization)
+2. Cutout-enhanced training (with cutout data augmentation)
 3. Evaluation (no augmentation)
 
-All transforms follow best practices for CIFAR-10 training with ResNet architectures.
 """
 
 import torch
@@ -27,12 +26,12 @@ def get_train_transforms(use_cutout: bool = False) -> transforms.Compose:
     """
     Get training transforms for CIFAR-10.
     
-    Baseline Augmentation (Standard for CIFAR-10):
+    Baseline Augmentation:
     1. Random crop with padding: Forces translation invariance
     2. Random horizontal flip: Doubles effective dataset size
     3. Normalization: Essential for stable SGD convergence
     
-    With Cutout (Constrained Improvement):
+    With Cutout :
     4. Cutout: Randomly masks 16x16 patches to prevent shortcut learning
     
     Args:
@@ -98,10 +97,7 @@ def get_cifar10_loaders(use_cutout: bool = False,
         
     Returns:
         Tuple of (train_loader, test_loader)
-        
-    Note:
-        Per assignment requirements, only the official train-test split is used.
-        No external data or pretrained features are incorporated.
+
     """
     # Use defaults from config if not specified
     batch_size = batch_size or config.BATCH_SIZE
@@ -176,9 +172,7 @@ def get_test_dataset_with_indices() -> torchvision.datasets.CIFAR10:
 def get_raw_test_dataset() -> torchvision.datasets.CIFAR10:
     """
     Get raw test dataset WITHOUT normalization (for visualization).
-    
-    Useful when you need to display original images alongside
-    Grad-CAM visualizations.
+
     
     Returns:
         CIFAR10 dataset with only ToTensor transform
@@ -222,7 +216,7 @@ def denormalize(tensor: torch.Tensor,
 
 def get_dataset_statistics():
     """
-    Print dataset statistics for the report.
+    Print dataset statistics.
     """
     train_dataset = torchvision.datasets.CIFAR10(
         root=config.DATA_DIR, train=True, download=True
