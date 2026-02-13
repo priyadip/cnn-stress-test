@@ -1,10 +1,4 @@
-"""
-Massive Disagreement Analysis (Long PNG Version)
-
-Generates a SINGLE, potentially very tall PNG file showing ALL disagreements.
-It dynamically adjusts the figure height to fit 100, 200, or 500+ images.
-"""
-
+"""Generates a SINGLE, potentially very tall PNG file showing ALL disagreements."""
 import torch
 import numpy as np
 import matplotlib.pyplot as plt
