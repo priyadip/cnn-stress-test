@@ -1,18 +1,6 @@
 """
 Cutout Data Augmentation
-
-Paper: "Improved Regularization of Convolutional Neural Networks with Cutout"
-       DeVries & Taylor, 2017 (arXiv:1708.04552)
-
 Cutout randomly masks out square regions of the input image during training.
-This forces the network to attend to multiple discriminative features rather
-than relying on a single "shortcut" feature (like background color or texture).
-
-Key Insight:
-    By occluding parts of the image, Cutout prevents the network from
-    over-relying on spurious correlations (e.g., "blue sky" for airplanes).
-    The model must learn to recognize objects from partial observations,
-    leading to more robust feature representations.
 """
 
 import torch
@@ -22,10 +10,7 @@ import numpy as np
 class Cutout:
     """
     Randomly mask out one or more patches from an image tensor.
-    
-    This is a data augmentation technique that improves robustness by
-    forcing the model to learn distributed representations rather than
-    relying on localized features or background cues.
+
     
     Args:
         n_holes (int): Number of patches to cut out of each image.
@@ -33,7 +18,7 @@ class Cutout:
         fill_value (float or tuple): Value to fill the masked region.
                                      Default: 0 (black).
     
-    Example Usage:
+    Usage:
         transform = transforms.Compose([
             transforms.ToTensor(),
             transforms.Normalize(mean, std),
@@ -97,10 +82,7 @@ class Cutout:
 class CutoutPIL:
     """
     Cutout variant that operates on PIL Images (before ToTensor).
-    
-    This version applies Cutout in the original image space, which can be
-    useful for visualization purposes but may have different numerical
-    properties than tensor-space Cutout.
+
     
     Args:
         n_holes (int): Number of patches to cut out.
@@ -155,8 +137,7 @@ class CutoutPIL:
 def visualize_cutout_effect(image_tensor, n_samples=5, n_holes=1, length=16):
     """
     Visualize the effect of Cutout augmentation on a single image.
-    
-    Useful for understanding what the model sees during training with Cutout.
+
     
     Args:
         image_tensor: Original image tensor (C, H, W), already normalized
