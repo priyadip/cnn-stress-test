@@ -1,5 +1,5 @@
 """
-Evaluation and Failure Case Discovery Script
+Evaluation and Failure Case Discovery 
 
 This script performs:
 1. Full evaluation on the test set
@@ -8,7 +8,7 @@ This script performs:
 4. Per-class accuracy analysis
 5. Saving failure cases for Grad-CAM analysis
 
-The failure discovery process 
+The failure discovery process follows the assignment requirements:
 - Find misclassifications with confidence > 70%
 - Identify high-confidence misclassifications
 - Track indices for reproducible analysis
@@ -32,11 +32,6 @@ from utils.data import get_cifar10_loaders, get_test_dataset_with_indices, denor
 
 def evaluate_model(model, test_loader, device):
     """
-    Comprehensive evaluation of the model on the test set.
-    
-    Returns detailed metrics including per-sample predictions,
-    confidences, and correctness flags.
-    
     Args:
         model: Trained model
         test_loader: Test data loader
@@ -108,11 +103,10 @@ def find_failure_cases(model, device, threshold=0.7, max_cases=None):
     
     A failure case is defined as:
     - Model prediction != ground truth
-    - Prediction confidence > threshold (default 90%)
+    - Prediction confidence > threshold (default 70%)
     
     Args:
         model: Trained model
-        device: CPU or CUDA device
         threshold: Minimum confidence for "high-confidence" failures
         max_cases: Maximum number of cases to return
         
@@ -174,9 +168,7 @@ def find_failure_cases(model, device, threshold=0.7, max_cases=None):
 
 def analyze_failure_cases(failure_cases, save_dir):
     """
-    Analyze and document failure cases for the report.
-    
-    Creates a detailed analysis file and visualizations for each failure case.
+    Analyze and document failure cases.
     
     Args:
         failure_cases: List of failure case dictionaries
@@ -228,12 +220,7 @@ def analyze_failure_cases(failure_cases, save_dir):
 
 
 def plot_confusion_matrix(targets, predictions, save_path):
-    """
-    Generate and save confusion matrix visualization.
-    
-    The confusion matrix reveals systematic failure patterns,
-    such as frequent confusion between similar classes.
-    """
+    """Generate and save confusion matrix visualization.""" 
     cm = confusion_matrix(targets, predictions)
     
     plt.figure(figsize=(12, 10))
@@ -257,11 +244,7 @@ def plot_confusion_matrix(targets, predictions, save_path):
 
 
 def plot_per_class_accuracy(per_class_accuracy, save_path):
-    """
-    Visualize per-class accuracy as a bar chart.
-    
-    Identifies which classes are most challenging for the model.
-    """
+    """Visualize per-class accuracy in bar chart format."""
     classes = list(range(config.NUM_CLASSES))
     accuracies = [per_class_accuracy[c] for c in classes]
     
