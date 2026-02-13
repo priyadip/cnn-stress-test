@@ -188,11 +188,6 @@ def compare_baseline_vs_cutout(baseline_model, cutout_model, failure_cases_basel
                                 save_dir):
     """
     Compare Grad-CAM attention between baseline and Cutout models.
-    
-    This visualization demonstrates how Cutout regularization changes
-    the model's attention patterns, ideally showing more distributed
-    attention on object features rather than background.
-    
     Args:
         baseline_model: Trained baseline model
         cutout_model: Trained model with Cutout augmentation
@@ -324,7 +319,7 @@ def compare_baseline_vs_cutout(baseline_model, cutout_model, failure_cases_basel
 
 def create_summary_visualization(baseline_results, cutout_results, save_path):
     """
-    Create a summary comparison figure for the report.
+    Create a summary comparison figure.
     
     Shows key metrics side-by-side: accuracy, confidence on failures,
     and sample Grad-CAM comparisons.
@@ -392,7 +387,7 @@ def visualize(baseline_checkpoint, cutout_checkpoint=None):
     """
     Main visualization function.
     
-    Generates all required visualizations for the assignment report.
+    Generates all required visualizations.
     
     Args:
         baseline_checkpoint: Path to baseline model checkpoint
