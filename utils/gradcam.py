@@ -1,13 +1,10 @@
 """
 Gradient-weighted Class Activation Mapping (Grad-CAM)
 
-Paper: "Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization"
+We follow the methedology from the Paper: "Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization"
        Selvaraju et al., ICCV 2017
 
-Grad-CAM provides visual explanations for CNN decisions by producing a coarse
-localization map highlighting important regions in the image for predicting a concept.
-
-Mathematical Formulation:
+Mathematical Formulation:(From the paper)[Image(SS from paper) to text by using LLM]
     Given feature maps A^k from a target convolutional layer, and class score y^c,
     the importance weight for feature map k is:
     
@@ -40,7 +37,7 @@ class GradCAM:
     
     Args:
         model: The trained CNN model
-        target_layer: The layer to compute Grad-CAM from (e.g., model.layer4)
+        target_layer: The layer to compute Grad-CAM from (e.g., model.layer3)
         
     Usage:
         gradcam = GradCAM(model, model.layer4)
@@ -75,7 +72,7 @@ class GradCAM:
         self.backward_handle = self.target_layer.register_full_backward_hook(backward_hook)
         
     def remove_hooks(self):
-        """Remove the registered hooks (cleanup)."""
+        """Remove the registered hooks."""
         self.forward_handle.remove()
         self.backward_handle.remove()
         
@@ -139,8 +136,6 @@ class GradCAM:
                                   num_classes: int = 10) -> dict:
         """
         Generate Grad-CAM heatmaps for all classes.
-        
-        Useful for comparing what regions drive different class predictions.
         
         Args:
             input_tensor: Input image tensor
@@ -264,7 +259,7 @@ def save_gradcam_comparison(image_tensor: torch.Tensor,
     Create a comparison visualization showing Grad-CAM for both
     predicted (wrong) class and true class.
     
-    This is crucial for understanding WHY the model made a mistake:
+    WHY the model made a mistake:
     - Heatmap for predicted class shows what the model focused on
     - Heatmap for true class shows where it SHOULD have focused
     
