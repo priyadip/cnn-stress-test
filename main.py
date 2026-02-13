@@ -1,14 +1,14 @@
 """
-Main Entry Point for CNN Stress-Testing Assignment
+ CNN Stress-Testing 
 
-This script provides a unified interface to run all components of the
-assignment pipeline:
+This code run all components of the Project:
+
 1. Train baseline model
 2. Evaluate baseline and discover failure cases
 3. Generate Grad-CAM visualizations
-4. Train Cutout-enhanced model
+4. Train model with cutout
 5. Compare baseline vs Cutout
-6. Generate final report figures
+6. Generate  figures
 
 Usage:
     python main.py --mode all         # Run complete pipeline
@@ -163,9 +163,9 @@ def run_comparison(baseline_checkpoint, cutout_checkpoint):
     return baseline_results, cutout_results
 
 
-def generate_report_figures():
-    """Generate all figures needed for the report."""
-    print_header("GENERATING REPORT FIGURES")
+def generate_figures():
+    """Generate all figures """
+    print_header("GENERATING FIGURES")
     
     figures_generated = []
     
@@ -175,7 +175,7 @@ def generate_report_figures():
             if file.endswith('.png'):
                 figures_generated.append(os.path.join(root, file))
     
-    print(f"\nGenerated {len(figures_generated)} figures for the report:")
+    print(f"\nGenerated {len(figures_generated)} figures for visualize:")
     for fig in sorted(figures_generated):
         print(f"  • {fig}")
     
@@ -186,7 +186,7 @@ def run_full_pipeline():
     """Run the complete assignment pipeline."""
     print("\n" + "#" * 70)
     print("#" + " " * 68 + "#")
-    print("#" + "   CNN STRESS-TESTING ASSIGNMENT - FULL PIPELINE".center(68) + "#")
+    print("#" + "   CNN STRESS-TESTING - FULL PIPELINE".center(68) + "#")
     print("#" + " " * 68 + "#")
     print("#" * 70)
     
@@ -217,8 +217,8 @@ def run_full_pipeline():
     # Phase 7: Comparative analysis
     baseline_results, cutout_results = run_comparison(baseline_ckpt, cutout_ckpt)
     
-    # Generate report figures summary
-    figures = generate_report_figures()
+    # Generate  figures summary
+    figures = generate_figures()
     
     # Final summary
     end_time = datetime.now()
@@ -241,9 +241,9 @@ def run_full_pipeline():
 
 
 def main():
-    """Main entry point with argument parsing."""
+    """Main code with argument parsing."""
     parser = argparse.ArgumentParser(
-        description='CNN Stress-Testing Assignment Pipeline',
+        description='CNN Stress-Testing  Pipeline',
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
@@ -329,7 +329,7 @@ Examples:
         
     elif args.mode == 'info':
         print("\n" + "=" * 60)
-        print("CNN STRESS-TESTING ASSIGNMENT INFO")
+        print("CNN STRESS-TESTING  INFO")
         print("=" * 60)
         config.print_config()
         get_dataset_statistics()
