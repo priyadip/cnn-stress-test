@@ -1,16 +1,16 @@
 """
-Training Script for CNN Stress-Testing Assignment
+Training code for CNN Stress-Testing 
 
-This script handles:
-1. Baseline model training (modified ResNet-18 on CIFAR-10)
-2. Cutout-enhanced training (constrained improvement)
+This script do:
+1. Baseline model training (modified ResNet-18 for CIFAR-10)
+2. Training in Cutout data 
 3. Logging of training/validation metrics
 4. Checkpoint saving
 
 The training procedure follows established best practices:
 - SGD with Nesterov momentum for robust convergence
 - MultiStepLR learning rate scheduling
-- Proper weight decay (L2 regularization)
+- Proper weight decay 
 - Fixed random seed for reproducibility
 """
 
@@ -166,8 +166,6 @@ def save_checkpoint(model, optimizer, scheduler, epoch, train_history,
 def plot_training_curves(train_history, test_history, save_path, title_suffix=""):
     """
     Plot and save training curves (loss and accuracy).
-    
-    These plots are required for the assignment report.
     """
     epochs = range(1, len(train_history['loss']) + 1)
     
@@ -214,8 +212,8 @@ def train(use_cutout=False, resume_from=None):
     Main training function.
     
     Args:
-        use_cutout: Whether to use Cutout augmentation (constrained improvement)
-        resume_from: Path to checkpoint to resume from (optional)
+        use_cutout: Whether to use Cutout augmentation 
+        resume_from: Path to checkpoint to resume from 
         
     Returns:
         Tuple of (trained model, training history, test history)
@@ -252,7 +250,7 @@ def train(use_cutout=False, resume_from=None):
     # Loss function
     criterion = nn.CrossEntropyLoss()
     
-    # Optimizer: SGD with Nesterov momentum (gold standard for ResNets)
+    # Optimizer: SGD with Nesterov momentum 
     optimizer = optim.SGD(
         model.parameters(),
         lr=config.INITIAL_LR,
@@ -386,7 +384,7 @@ if __name__ == "__main__":
     
     parser = argparse.ArgumentParser(description='Train ResNet-18 on CIFAR-10')
     parser.add_argument('--cutout', action='store_true',
-                        help='Use Cutout augmentation (constrained improvement)')
+                        help='Use Cutout augmentation')
     parser.add_argument('--resume', type=str, default=None,
                         help='Path to checkpoint to resume from')
     
