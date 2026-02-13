@@ -4,10 +4,8 @@ Modified ResNet-18 for CIFAR-10 (32x32 images)
 Key Modifications from Standard ImageNet ResNet-18:
 1. Initial conv: 7x7 stride 2 -> 3x3 stride 1 (preserves spatial resolution)
 2. Remove initial max pooling layer (prevents excessive downsampling)
-3. Final feature map: 4x4 spatial resolution (good for Grad-CAM)
+3. Final feature map: 4x4 spatial resolution (For Grad-CAM)
 
-This adaptation is crucial for achieving >90% accuracy on CIFAR-10 within 50 epochs
-and for obtaining meaningful spatial explainability via Grad-CAM.
 """
 
 import torch
@@ -21,9 +19,7 @@ class BasicBlock(nn.Module):
     
     Architecture:
         x -> Conv3x3 -> BN -> ReLU -> Conv3x3 -> BN -> (+x) -> ReLU
-        
-    The skip connection adds the input directly to the output, enabling
-    gradient flow through identity mappings (gradient superhighways).
+
     """
     expansion = 1
     
@@ -85,12 +81,11 @@ class ResNet18CIFAR(nn.Module):
         GAP: Global Average Pool -> 1x1x512
         FC: Linear -> 10 classes
     
-    Total parameters: ~11.2M (vs ~138M for VGG-16)
+    Total parameters: ~11.2M 
     
     Spatial Resolution Preservation:
         Unlike standard ResNet-18 which reduces 224x224 -> 7x7,
         this variant preserves more spatial info: 32x32 -> 4x4
-        This is critical for Grad-CAM interpretability.
     """
     
     def __init__(self, num_classes=10):
@@ -99,7 +94,6 @@ class ResNet18CIFAR(nn.Module):
         self.in_planes = 64
         
         # MODIFIED STEM: 3x3 conv with stride 1 (instead of 7x7 stride 2)
-        # This preserves the 32x32 spatial resolution
         self.conv1 = nn.Conv2d(
             3, 64, kernel_size=3, 
             stride=1, padding=1, bias=False
@@ -108,7 +102,7 @@ class ResNet18CIFAR(nn.Module):
         
         # NO MAX POOLING - Removed to prevent aggressive downsampling
         # Standard ResNet uses: self.maxpool = nn.MaxPool2d(3, stride=2, padding=1)
-        # We replace it with identity operation (effectively removed)
+        # We replace it with identity operation 
         
         # Residual layers with progressive downsampling
         self.layer1 = self._make_layer(64, 2, stride=1)   # 32x32 -> 32x32
@@ -161,9 +155,7 @@ class ResNet18CIFAR(nn.Module):
     def _initialize_weights(self):
         """
         Initialize weights using Kaiming He initialization.
-        
-        This initialization scheme is designed for networks with ReLU activations
-        and helps maintain variance across layers during training.
+
         """
         for m in self.modules():
             if isinstance(m, nn.Conv2d):
@@ -234,19 +226,18 @@ class ResNet18CIFAR(nn.Module):
 
 def resnet18_cifar(num_classes=10, pretrained=False):
     """
-    Factory function for creating ResNet-18 for CIFAR-10.
+    Function for creating ResNet-18 for CIFAR-10.
     
     Args:
         num_classes: Number of output classes (default: 10 for CIFAR-10)
-        pretrained: Must be False as per assignment requirements
+        pretrained: False 
         
     Returns:
         ResNet18CIFAR model instance
     """
     if pretrained:
         raise ValueError(
-            "Pretrained weights are not allowed per assignment requirements. "
-            "All models must be trained from scratch."
+            "Pretrained weights are not used."
         )
     
     return ResNet18CIFAR(num_classes=num_classes)
@@ -270,5 +261,8 @@ if __name__ == "__main__":
     print(f"Output shape: {output.shape}")
     
     # Test feature extraction for Grad-CAM
+    # features = model.get_feature_maps(dummy_input, 'layer3')
+    # print(f"Layer3 feature map shape: {features.shape}")  
+
     features = model.get_feature_maps(dummy_input, 'layer4')
-    print(f"Layer4 feature map shape: {features.shape}")  # Should be (2, 512, 4, 4)
+    print(f"Layer4 feature map shape: {features.shape}")  
