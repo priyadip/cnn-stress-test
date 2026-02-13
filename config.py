@@ -1,15 +1,12 @@
 """
-Configuration file for CNN Stress-Testing Assignment
-All hyperparameters, paths, and experimental settings centralized here.
+All hyperparameters, paths, and experimental settings are here.
 """
 
 import torch
 import os
 
-# ============================================================================
-# REPRODUCIBILITY
-# ============================================================================
-RANDOM_SEED = 42  # Fixed seed for all experiments - REPORT THIS VALUE
+
+RANDOM_SEED = 42  # Fixed seed for all experiments 
 
 # ============================================================================
 # DATASET CONFIGURATION
@@ -49,7 +46,7 @@ LR_MILESTONES = [25, 40]  # Decay at epochs 25 and 40
 LR_GAMMA = 0.1  # Multiply LR by 0.1 at each milestone
 
 # ============================================================================
-# CUTOUT CONFIGURATION (Constrained Improvement)
+# CUTOUT CONFIGURATION 
 # ============================================================================
 CUTOUT_N_HOLES = 1  # Number of holes to cut
 CUTOUT_LENGTH = 16  # Size of each hole (16x16 for CIFAR-10)
@@ -59,13 +56,13 @@ CUTOUT_LENGTH = 16  # Size of each hole (16x16 for CIFAR-10)
 # ============================================================================
 #TARGET_LAYER = 'layer4'  # Target layer for Grad-CAM (final conv block)
 TARGET_LAYER = 'layer3'  # Alternative: 'layer3' for finer spatial resolution
-# Alternative: 'layer3' for finer spatial resolution
+
 
 # ============================================================================
 # FAILURE ANALYSIS CONFIGURATION
 # ============================================================================
 HIGH_CONFIDENCE_THRESHOLD = 0.7  # Threshold for "high-confidence" failures
-NUM_FAILURE_CASES = None   # Number of failure cases to analyze (select 3 best)
+NUM_FAILURE_CASES = None   # Number of failure cases to analyze 
 
 # ============================================================================
 # PATHS
@@ -75,7 +72,7 @@ CHECKPOINT_DIR = './checkpoints'
 RESULTS_DIR = './results'
 FIGURES_DIR = './figures'
 
-# Create directories if they don't exist
+
 for dir_path in [DATA_DIR, CHECKPOINT_DIR, RESULTS_DIR, FIGURES_DIR]:
     os.makedirs(dir_path, exist_ok=True)
 
